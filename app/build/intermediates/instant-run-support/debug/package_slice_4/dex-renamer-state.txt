@@ -1,0 +1,4 @@
+#Tue Feb 20 22:30:17 CST 2018
+base.0=/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/transforms/dexMerger/debug/480
+path.0=classes.dex
+renamed.0=classes.dex

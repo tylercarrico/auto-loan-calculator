@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/res/values-w500dp/values-w500dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "290",
+                        "endColumns": "54",
+                        "endOffsets": "340"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

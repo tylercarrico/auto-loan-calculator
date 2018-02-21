@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c2f8e9600cf30b03734563db2df2b08a/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,7,11,15",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,367,593,832",
+                        "endLines": "2,3,6,10,14,15",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,362,588,827,920"
+                    }
+                }
+            ]
+        }
+    ]
+}

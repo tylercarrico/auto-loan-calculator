@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Feb 21 11:46:55 CST 2018
+0.baseType=DIRECTORY
+0.base=/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/transforms/dexMerger/debug/494
+0.path=classes.dex
+0.set=DEX
+count=1
