@@ -70,7 +70,7 @@ class report : AppCompatActivity() {
         totalInterest.append(java.lang.Double.toString(total_interest))
 
         //total
-        val total = payment + sales_tax + 300.0 + total_interest
+        val total = principal + sales_tax + 300.0 + total_interest
         val totalCost = findViewById(R.id.totalCost) as TextView
         totalCost.append("%.2f".format(total))
     }
