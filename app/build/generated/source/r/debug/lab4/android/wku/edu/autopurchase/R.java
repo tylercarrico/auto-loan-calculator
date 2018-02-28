@@ -19,6 +19,10 @@ public final class R {
     public static final int abc_slide_in_top=0x7f010007;
     public static final int abc_slide_out_bottom=0x7f010008;
     public static final int abc_slide_out_top=0x7f010009;
+    public static final int main_in=0x7f01000a;
+    public static final int main_out=0x7f01000b;
+    public static final int report_in=0x7f01000c;
+    public static final int report_out=0x7f01000d;
   }
   public static final class attr {
     /**
@@ -1507,42 +1511,56 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0200be;
+    public static final int ratingBarStyleIndicator=0x7f0200be;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0200bf;
+    public static final int ratingBarStyleSmall=0x7f0200bf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0200c0;
+    public static final int searchHintIcon=0x7f0200c0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0200c1;
+    public static final int searchIcon=0x7f0200c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0200c2;
+    public static final int searchViewStyle=0x7f0200c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0200c3;
+    public static final int seekBarStyle=0x7f0200c3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackground=0x7f0200c4;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackgroundBorderless=0x7f0200c5;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1557,7 +1575,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0200c4;
+    public static final int showAsAction=0x7f0200c6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1571,87 +1589,94 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0200c5;
+    public static final int showDividers=0x7f0200c7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0200c6;
+    public static final int showText=0x7f0200c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0200c7;
+    public static final int singleChoiceItemLayout=0x7f0200c9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0200c8;
+    public static final int spinBars=0x7f0200ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0200c9;
+    public static final int spinnerDropDownItemStyle=0x7f0200cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0200ca;
+    public static final int spinnerStyle=0x7f0200cc;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0200cb;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int state_above_anchor=0x7f0200cc;
+    public static final int splitTrack=0x7f0200cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0200cd;
+    public static final int srcCompat=0x7f0200ce;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int state_above_anchor=0x7f0200cf;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int submitBackground=0x7f0200d0;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0200ce;
+    public static final int subtitle=0x7f0200d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0200cf;
+    public static final int subtitleTextAppearance=0x7f0200d2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0200d0;
+    public static final int subtitleTextColor=0x7f0200d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0200d1;
+    public static final int subtitleTextStyle=0x7f0200d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0200d2;
+    public static final int suggestionRowLayout=0x7f0200d5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1659,7 +1684,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0200d3;
+    public static final int switchMinWidth=0x7f0200d6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1667,21 +1692,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0200d4;
+    public static final int switchPadding=0x7f0200d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0200d5;
+    public static final int switchStyle=0x7f0200d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0200d6;
+    public static final int switchTextAppearance=0x7f0200d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1690,59 +1715,49 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0200d7;
+    public static final int textAllCaps=0x7f0200da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0200d8;
+    public static final int textAppearanceLargePopupMenu=0x7f0200db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0200d9;
+    public static final int textAppearanceListItem=0x7f0200dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0200da;
+    public static final int textAppearanceListItemSmall=0x7f0200dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0200db;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0200de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0200dc;
+    public static final int textAppearanceSearchResultTitle=0x7f0200df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0200dd;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0200de;
+    public static final int textAppearanceSmallPopupMenu=0x7f0200e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1752,14 +1767,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0200df;
+    public static final int textColorAlertDialogListItem=0x7f0200e1;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0200e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0200e0;
+    public static final int theme=0x7f0200e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1767,7 +1792,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0200e1;
+    public static final int thickness=0x7f0200e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1775,12 +1800,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0200e2;
+    public static final int thumbTextPadding=0x7f0200e5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0200e3;
+    public static final int title=0x7f0200e6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1788,7 +1813,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0200e4;
+    public static final int titleMarginBottom=0x7f0200e7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1796,7 +1821,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0200e5;
+    public static final int titleMarginEnd=0x7f0200e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1804,7 +1829,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0200e6;
+    public static final int titleMarginStart=0x7f0200e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1812,7 +1837,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0200e7;
+    public static final int titleMarginTop=0x7f0200ea;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1820,70 +1845,70 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0200e8;
+    public static final int titleMargins=0x7f0200eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0200e9;
+    public static final int titleTextAppearance=0x7f0200ec;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0200ea;
+    public static final int titleTextColor=0x7f0200ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0200eb;
+    public static final int titleTextStyle=0x7f0200ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f0200ec;
+    public static final int toolbarNavigationButtonStyle=0x7f0200ef;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f0200ed;
+    public static final int toolbarStyle=0x7f0200f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f0200ee;
+    public static final int track=0x7f0200f1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0200ef;
+    public static final int voiceIcon=0x7f0200f2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0200f0;
+    public static final int windowActionBar=0x7f0200f3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0200f1;
+    public static final int windowActionBarOverlay=0x7f0200f4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0200f2;
+    public static final int windowActionModeOverlay=0x7f0200f5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1895,7 +1920,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0200f3;
+    public static final int windowFixedHeightMajor=0x7f0200f6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1907,7 +1932,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0200f4;
+    public static final int windowFixedHeightMinor=0x7f0200f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1919,7 +1944,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0200f5;
+    public static final int windowFixedWidthMajor=0x7f0200f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1931,7 +1956,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0200f6;
+    public static final int windowFixedWidthMinor=0x7f0200f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1943,7 +1968,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0200f7;
+    public static final int windowMinWidthMajor=0x7f0200fa;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1955,12 +1980,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0200f8;
+    public static final int windowMinWidthMinor=0x7f0200fb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0200f9;
+    public static final int windowNoTitle=0x7f0200fc;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -2158,44 +2183,52 @@ public final class R {
     public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f06001e;
     public static final int abc_ic_menu_share_mtrl_alpha=0x7f06001f;
     public static final int abc_ic_search_api_mtrl_alpha=0x7f060020;
-    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f060021;
-    public static final int abc_item_background_holo_dark=0x7f060022;
-    public static final int abc_item_background_holo_light=0x7f060023;
-    public static final int abc_list_divider_mtrl_alpha=0x7f060024;
-    public static final int abc_list_focused_holo=0x7f060025;
-    public static final int abc_list_longpressed_holo=0x7f060026;
-    public static final int abc_list_pressed_holo_dark=0x7f060027;
-    public static final int abc_list_pressed_holo_light=0x7f060028;
-    public static final int abc_list_selector_background_transition_holo_dark=0x7f060029;
-    public static final int abc_list_selector_background_transition_holo_light=0x7f06002a;
-    public static final int abc_list_selector_disabled_holo_dark=0x7f06002b;
-    public static final int abc_list_selector_disabled_holo_light=0x7f06002c;
-    public static final int abc_list_selector_holo_dark=0x7f06002d;
-    public static final int abc_list_selector_holo_light=0x7f06002e;
-    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f06002f;
-    public static final int abc_popup_background_mtrl_mult=0x7f060030;
-    public static final int abc_ratingbar_full_material=0x7f060031;
-    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f060032;
-    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f060033;
-    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f060034;
-    public static final int abc_scrubber_primary_mtrl_alpha=0x7f060035;
-    public static final int abc_scrubber_track_mtrl_alpha=0x7f060036;
-    public static final int abc_seekbar_thumb_material=0x7f060037;
-    public static final int abc_seekbar_track_material=0x7f060038;
-    public static final int abc_spinner_mtrl_am_alpha=0x7f060039;
-    public static final int abc_spinner_textfield_background_material=0x7f06003a;
-    public static final int abc_switch_thumb_material=0x7f06003b;
-    public static final int abc_switch_track_mtrl_alpha=0x7f06003c;
-    public static final int abc_tab_indicator_material=0x7f06003d;
-    public static final int abc_tab_indicator_mtrl_alpha=0x7f06003e;
-    public static final int abc_text_cursor_material=0x7f06003f;
-    public static final int abc_textfield_activated_mtrl_alpha=0x7f060040;
-    public static final int abc_textfield_default_mtrl_alpha=0x7f060041;
-    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f060042;
-    public static final int abc_textfield_search_default_mtrl_alpha=0x7f060043;
-    public static final int abc_textfield_search_material=0x7f060044;
-    public static final int ic_launcher_background=0x7f060045;
-    public static final int notification_template_icon_bg=0x7f060046;
+    public static final int abc_ic_star_black_16dp=0x7f060021;
+    public static final int abc_ic_star_black_36dp=0x7f060022;
+    public static final int abc_ic_star_half_black_16dp=0x7f060023;
+    public static final int abc_ic_star_half_black_36dp=0x7f060024;
+    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f060025;
+    public static final int abc_item_background_holo_dark=0x7f060026;
+    public static final int abc_item_background_holo_light=0x7f060027;
+    public static final int abc_list_divider_mtrl_alpha=0x7f060028;
+    public static final int abc_list_focused_holo=0x7f060029;
+    public static final int abc_list_longpressed_holo=0x7f06002a;
+    public static final int abc_list_pressed_holo_dark=0x7f06002b;
+    public static final int abc_list_pressed_holo_light=0x7f06002c;
+    public static final int abc_list_selector_background_transition_holo_dark=0x7f06002d;
+    public static final int abc_list_selector_background_transition_holo_light=0x7f06002e;
+    public static final int abc_list_selector_disabled_holo_dark=0x7f06002f;
+    public static final int abc_list_selector_disabled_holo_light=0x7f060030;
+    public static final int abc_list_selector_holo_dark=0x7f060031;
+    public static final int abc_list_selector_holo_light=0x7f060032;
+    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f060033;
+    public static final int abc_popup_background_mtrl_mult=0x7f060034;
+    public static final int abc_ratingbar_full_material=0x7f060035;
+    public static final int abc_ratingbar_indicator_material=0x7f060036;
+    public static final int abc_ratingbar_small_material=0x7f060037;
+    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f060038;
+    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f060039;
+    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f06003a;
+    public static final int abc_scrubber_primary_mtrl_alpha=0x7f06003b;
+    public static final int abc_scrubber_track_mtrl_alpha=0x7f06003c;
+    public static final int abc_seekbar_thumb_material=0x7f06003d;
+    public static final int abc_seekbar_track_material=0x7f06003e;
+    public static final int abc_spinner_mtrl_am_alpha=0x7f06003f;
+    public static final int abc_spinner_textfield_background_material=0x7f060040;
+    public static final int abc_switch_thumb_material=0x7f060041;
+    public static final int abc_switch_track_mtrl_alpha=0x7f060042;
+    public static final int abc_tab_indicator_material=0x7f060043;
+    public static final int abc_tab_indicator_mtrl_alpha=0x7f060044;
+    public static final int abc_text_cursor_material=0x7f060045;
+    public static final int abc_textfield_activated_mtrl_alpha=0x7f060046;
+    public static final int abc_textfield_default_mtrl_alpha=0x7f060047;
+    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f060048;
+    public static final int abc_textfield_search_default_mtrl_alpha=0x7f060049;
+    public static final int abc_textfield_search_material=0x7f06004a;
+    public static final int car_sedan2=0x7f06004b;
+    public static final int ic_launcher_background=0x7f06004c;
+    public static final int notification_template_icon_bg=0x7f06004d;
+    public static final int splash=0x7f06004e;
   }
   public static final class id {
     public static final int action0=0x7f070000;
@@ -2213,115 +2246,120 @@ public final class R {
     public static final int action_mode_bar=0x7f07000c;
     public static final int action_mode_bar_stub=0x7f07000d;
     public static final int action_mode_close_button=0x7f07000e;
-    public static final int activity_chooser_view_content=0x7f07000f;
-    public static final int alertTitle=0x7f070010;
-    public static final int all=0x7f070011;
-    public static final int always=0x7f070012;
-    public static final int basic=0x7f070013;
-    public static final int beginning=0x7f070014;
-    public static final int borrowed=0x7f070015;
-    public static final int buttonPanel=0x7f070016;
-    public static final int cancel_action=0x7f070017;
-    public static final int chains=0x7f070018;
-    public static final int checkbox=0x7f070019;
-    public static final int chronometer=0x7f07001a;
-    public static final int collapseActionView=0x7f07001b;
-    public static final int contentPanel=0x7f07001c;
-    public static final int custom=0x7f07001d;
-    public static final int customPanel=0x7f07001e;
-    public static final int decor_content_parent=0x7f07001f;
-    public static final int default_activity_button=0x7f070020;
-    public static final int disableHome=0x7f070021;
-    public static final int down=0x7f070022;
-    public static final int edit_query=0x7f070023;
-    public static final int end=0x7f070024;
-    public static final int end_padder=0x7f070025;
-    public static final int expand_activities_button=0x7f070026;
-    public static final int expanded_menu=0x7f070027;
-    public static final int fees=0x7f070028;
-    public static final int five_year=0x7f070029;
-    public static final int home=0x7f07002a;
-    public static final int homeAsUp=0x7f07002b;
-    public static final int icon=0x7f07002c;
-    public static final int ifRoom=0x7f07002d;
-    public static final int image=0x7f07002e;
-    public static final int info=0x7f07002f;
-    public static final int line1=0x7f070030;
-    public static final int line3=0x7f070031;
-    public static final int listMode=0x7f070032;
-    public static final int list_item=0x7f070033;
-    public static final int media_actions=0x7f070034;
-    public static final int middle=0x7f070035;
-    public static final int monthly=0x7f070036;
-    public static final int multiply=0x7f070037;
-    public static final int never=0x7f070038;
-    public static final int none=0x7f070039;
-    public static final int normal=0x7f07003a;
-    public static final int packed=0x7f07003b;
-    public static final int parent=0x7f07003c;
-    public static final int parentPanel=0x7f07003d;
-    public static final int price=0x7f07003e;
-    public static final int progress_circular=0x7f07003f;
-    public static final int progress_horizontal=0x7f070040;
-    public static final int radio=0x7f070041;
-    public static final int radioButton=0x7f070042;
-    public static final int radioButton3=0x7f070043;
-    public static final int radioGroup=0x7f070044;
-    public static final int rate=0x7f070045;
-    public static final int screen=0x7f070046;
-    public static final int scrollIndicatorDown=0x7f070047;
-    public static final int scrollIndicatorUp=0x7f070048;
-    public static final int scrollView=0x7f070049;
-    public static final int search_badge=0x7f07004a;
-    public static final int search_bar=0x7f07004b;
-    public static final int search_button=0x7f07004c;
-    public static final int search_close_btn=0x7f07004d;
-    public static final int search_edit_frame=0x7f07004e;
-    public static final int search_go_btn=0x7f07004f;
-    public static final int search_mag_icon=0x7f070050;
-    public static final int search_plate=0x7f070051;
-    public static final int search_src_text=0x7f070052;
-    public static final int search_voice_btn=0x7f070053;
-    public static final int select_dialog_listview=0x7f070054;
-    public static final int shortcut=0x7f070055;
-    public static final int showCustom=0x7f070056;
-    public static final int showHome=0x7f070057;
-    public static final int showTitle=0x7f070058;
-    public static final int spacer=0x7f070059;
-    public static final int split_action_bar=0x7f07005a;
-    public static final int spread=0x7f07005b;
-    public static final int spread_inside=0x7f07005c;
-    public static final int src_atop=0x7f07005d;
-    public static final int src_in=0x7f07005e;
-    public static final int src_over=0x7f07005f;
-    public static final int status_bar_latest_event_content=0x7f070060;
-    public static final int submit=0x7f070061;
-    public static final int submit_area=0x7f070062;
-    public static final int tabMode=0x7f070063;
-    public static final int tax=0x7f070064;
-    public static final int term=0x7f070065;
-    public static final int text=0x7f070066;
-    public static final int text2=0x7f070067;
-    public static final int textSpacerNoButtons=0x7f070068;
-    public static final int textView=0x7f070069;
-    public static final int textView2=0x7f07006a;
-    public static final int textView3=0x7f07006b;
-    public static final int textView4=0x7f07006c;
-    public static final int textView5=0x7f07006d;
-    public static final int three_year=0x7f07006e;
-    public static final int time=0x7f07006f;
-    public static final int title=0x7f070070;
-    public static final int title_template=0x7f070071;
-    public static final int topPanel=0x7f070072;
-    public static final int totalCost=0x7f070073;
-    public static final int totalInterest=0x7f070074;
-    public static final int two_year=0x7f070075;
-    public static final int up=0x7f070076;
-    public static final int useLogo=0x7f070077;
-    public static final int withText=0x7f070078;
-    public static final int wrap=0x7f070079;
-    public static final int wrap_content=0x7f07007a;
-    public static final int yourCost=0x7f07007b;
+    public static final int action_refresh=0x7f07000f;
+    public static final int action_settings=0x7f070010;
+    public static final int activity_chooser_view_content=0x7f070011;
+    public static final int alertTitle=0x7f070012;
+    public static final int all=0x7f070013;
+    public static final int always=0x7f070014;
+    public static final int basic=0x7f070015;
+    public static final int beginning=0x7f070016;
+    public static final int borrowed=0x7f070017;
+    public static final int buttonPanel=0x7f070018;
+    public static final int cancel_action=0x7f070019;
+    public static final int chains=0x7f07001a;
+    public static final int checkbox=0x7f07001b;
+    public static final int chronometer=0x7f07001c;
+    public static final int collapseActionView=0x7f07001d;
+    public static final int contentPanel=0x7f07001e;
+    public static final int custom=0x7f07001f;
+    public static final int customPanel=0x7f070020;
+    public static final int decor_content_parent=0x7f070021;
+    public static final int default_activity_button=0x7f070022;
+    public static final int disableHome=0x7f070023;
+    public static final int down=0x7f070024;
+    public static final int edit_query=0x7f070025;
+    public static final int end=0x7f070026;
+    public static final int end_padder=0x7f070027;
+    public static final int expand_activities_button=0x7f070028;
+    public static final int expanded_menu=0x7f070029;
+    public static final int fees=0x7f07002a;
+    public static final int five_year=0x7f07002b;
+    public static final int home=0x7f07002c;
+    public static final int homeAsUp=0x7f07002d;
+    public static final int icon=0x7f07002e;
+    public static final int ifRoom=0x7f07002f;
+    public static final int image=0x7f070030;
+    public static final int info=0x7f070031;
+    public static final int line1=0x7f070032;
+    public static final int line3=0x7f070033;
+    public static final int linearLayout3=0x7f070034;
+    public static final int linearLayout4=0x7f070035;
+    public static final int listMode=0x7f070036;
+    public static final int list_item=0x7f070037;
+    public static final int media_actions=0x7f070038;
+    public static final int middle=0x7f070039;
+    public static final int monthly=0x7f07003a;
+    public static final int multiply=0x7f07003b;
+    public static final int my_toolbar=0x7f07003c;
+    public static final int never=0x7f07003d;
+    public static final int none=0x7f07003e;
+    public static final int normal=0x7f07003f;
+    public static final int packed=0x7f070040;
+    public static final int parent=0x7f070041;
+    public static final int parentPanel=0x7f070042;
+    public static final int price=0x7f070043;
+    public static final int progress_circular=0x7f070044;
+    public static final int progress_horizontal=0x7f070045;
+    public static final int radio=0x7f070046;
+    public static final int radioButton=0x7f070047;
+    public static final int radioButton3=0x7f070048;
+    public static final int radioGroup=0x7f070049;
+    public static final int rate=0x7f07004a;
+    public static final int screen=0x7f07004b;
+    public static final int scrollIndicatorDown=0x7f07004c;
+    public static final int scrollIndicatorUp=0x7f07004d;
+    public static final int scrollView=0x7f07004e;
+    public static final int search_badge=0x7f07004f;
+    public static final int search_bar=0x7f070050;
+    public static final int search_button=0x7f070051;
+    public static final int search_close_btn=0x7f070052;
+    public static final int search_edit_frame=0x7f070053;
+    public static final int search_go_btn=0x7f070054;
+    public static final int search_mag_icon=0x7f070055;
+    public static final int search_plate=0x7f070056;
+    public static final int search_src_text=0x7f070057;
+    public static final int search_voice_btn=0x7f070058;
+    public static final int select_dialog_listview=0x7f070059;
+    public static final int shortcut=0x7f07005a;
+    public static final int showCustom=0x7f07005b;
+    public static final int showHome=0x7f07005c;
+    public static final int showTitle=0x7f07005d;
+    public static final int spacer=0x7f07005e;
+    public static final int split_action_bar=0x7f07005f;
+    public static final int spread=0x7f070060;
+    public static final int spread_inside=0x7f070061;
+    public static final int src_atop=0x7f070062;
+    public static final int src_in=0x7f070063;
+    public static final int src_over=0x7f070064;
+    public static final int status_bar_latest_event_content=0x7f070065;
+    public static final int submit=0x7f070066;
+    public static final int submit_area=0x7f070067;
+    public static final int tabMode=0x7f070068;
+    public static final int tax=0x7f070069;
+    public static final int term=0x7f07006a;
+    public static final int text=0x7f07006b;
+    public static final int text2=0x7f07006c;
+    public static final int textSpacerNoButtons=0x7f07006d;
+    public static final int textView=0x7f07006e;
+    public static final int textView2=0x7f07006f;
+    public static final int textView3=0x7f070070;
+    public static final int textView4=0x7f070071;
+    public static final int textView5=0x7f070072;
+    public static final int three_year=0x7f070073;
+    public static final int time=0x7f070074;
+    public static final int title=0x7f070075;
+    public static final int title_template=0x7f070076;
+    public static final int topPanel=0x7f070077;
+    public static final int totalCost=0x7f070078;
+    public static final int totalInterest=0x7f070079;
+    public static final int two_year=0x7f07007a;
+    public static final int up=0x7f07007b;
+    public static final int useLogo=0x7f07007c;
+    public static final int withText=0x7f07007d;
+    public static final int wrap=0x7f07007e;
+    public static final int wrap_content=0x7f07007f;
+    public static final int yourCost=0x7f070080;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -2371,342 +2409,358 @@ public final class R {
     public static final int select_dialog_singlechoice_material=0x7f090025;
     public static final int support_simple_spinner_dropdown_item=0x7f090026;
   }
+  public static final class menu {
+    public static final int menu=0x7f0a0000;
+  }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f0a0000;
-    public static final int ic_launcher_round=0x7f0a0001;
+    public static final int ic_launcher=0x7f0b0000;
+    public static final int ic_launcher_round=0x7f0b0001;
   }
   public static final class string {
-    public static final int abc_action_bar_home_description=0x7f0b0000;
-    public static final int abc_action_bar_home_description_format=0x7f0b0001;
-    public static final int abc_action_bar_home_subtitle_description_format=0x7f0b0002;
-    public static final int abc_action_bar_up_description=0x7f0b0003;
-    public static final int abc_action_menu_overflow_description=0x7f0b0004;
-    public static final int abc_action_mode_done=0x7f0b0005;
-    public static final int abc_activity_chooser_view_see_all=0x7f0b0006;
-    public static final int abc_activitychooserview_choose_application=0x7f0b0007;
-    public static final int abc_capital_off=0x7f0b0008;
-    public static final int abc_capital_on=0x7f0b0009;
-    public static final int abc_search_hint=0x7f0b000a;
-    public static final int abc_searchview_description_clear=0x7f0b000b;
-    public static final int abc_searchview_description_query=0x7f0b000c;
-    public static final int abc_searchview_description_search=0x7f0b000d;
-    public static final int abc_searchview_description_submit=0x7f0b000e;
-    public static final int abc_searchview_description_voice=0x7f0b000f;
-    public static final int abc_shareactionprovider_share_with=0x7f0b0010;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0b0011;
-    public static final int abc_toolbar_collapse_description=0x7f0b0012;
-    public static final int app_name=0x7f0b0013;
-    public static final int status_bar_notification_info_overflow=0x7f0b0014;
+    public static final int abc_action_bar_home_description=0x7f0c0000;
+    public static final int abc_action_bar_home_description_format=0x7f0c0001;
+    public static final int abc_action_bar_home_subtitle_description_format=0x7f0c0002;
+    public static final int abc_action_bar_up_description=0x7f0c0003;
+    public static final int abc_action_menu_overflow_description=0x7f0c0004;
+    public static final int abc_action_mode_done=0x7f0c0005;
+    public static final int abc_activity_chooser_view_see_all=0x7f0c0006;
+    public static final int abc_activitychooserview_choose_application=0x7f0c0007;
+    public static final int abc_capital_off=0x7f0c0008;
+    public static final int abc_capital_on=0x7f0c0009;
+    public static final int abc_search_hint=0x7f0c000a;
+    public static final int abc_searchview_description_clear=0x7f0c000b;
+    public static final int abc_searchview_description_query=0x7f0c000c;
+    public static final int abc_searchview_description_search=0x7f0c000d;
+    public static final int abc_searchview_description_submit=0x7f0c000e;
+    public static final int abc_searchview_description_voice=0x7f0c000f;
+    public static final int abc_shareactionprovider_share_with=0x7f0c0010;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0c0011;
+    public static final int abc_toolbar_collapse_description=0x7f0c0012;
+    public static final int app_name=0x7f0c0013;
+    public static final int hello_blank_fragment=0x7f0c0014;
+    public static final int status_bar_notification_info_overflow=0x7f0c0015;
   }
   public static final class style {
-    public static final int AlertDialog_AppCompat=0x7f0c0000;
-    public static final int AlertDialog_AppCompat_Light=0x7f0c0001;
-    public static final int Animation_AppCompat_Dialog=0x7f0c0002;
-    public static final int Animation_AppCompat_DropDownUp=0x7f0c0003;
-    public static final int AppTheme=0x7f0c0004;
-    public static final int Base_AlertDialog_AppCompat=0x7f0c0005;
-    public static final int Base_AlertDialog_AppCompat_Light=0x7f0c0006;
-    public static final int Base_Animation_AppCompat_Dialog=0x7f0c0007;
-    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c0008;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c000a;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0c0009;
-    public static final int Base_TextAppearance_AppCompat=0x7f0c000b;
-    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c000c;
-    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c000d;
-    public static final int Base_TextAppearance_AppCompat_Button=0x7f0c000e;
-    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c000f;
-    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0010;
-    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0011;
-    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0012;
-    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c0013;
-    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c0014;
-    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c0015;
-    public static final int Base_TextAppearance_AppCompat_Large=0x7f0c0016;
-    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c0017;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c0018;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c0019;
-    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c001a;
-    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c001b;
-    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c001c;
-    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c001d;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c001e;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c001f;
-    public static final int Base_TextAppearance_AppCompat_Small=0x7f0c0020;
-    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c0021;
-    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c0022;
-    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0023;
-    public static final int Base_TextAppearance_AppCompat_Title=0x7f0c0024;
-    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c0025;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c0026;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0027;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0028;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0029;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c002a;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c002b;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c002c;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c002d;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0033;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0034;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0035;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0036;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0c0045;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0046;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0047;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0048;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0049;
-    public static final int Base_Theme_AppCompat=0x7f0c0037;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c0038;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0c0039;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c003d;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c003a;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c003b;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c003c;
-    public static final int Base_Theme_AppCompat_Light=0x7f0c003e;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c003f;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0040;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0044;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0041;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0042;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0043;
-    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c004a;
-    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c004b;
-    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c004c;
-    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c004d;
-    public static final int Base_V21_Theme_AppCompat=0x7f0c004e;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c004f;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0050;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0051;
-    public static final int Base_V22_Theme_AppCompat=0x7f0c0052;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0c0053;
-    public static final int Base_V23_Theme_AppCompat=0x7f0c0054;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0c0055;
-    public static final int Base_V7_Theme_AppCompat=0x7f0c0056;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c0057;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0c0058;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0059;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c005a;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c005b;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0c005c;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c005d;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c005e;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c005f;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0060;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0061;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0062;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0063;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0c0064;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c0065;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0066;
-    public static final int Base_Widget_AppCompat_Button=0x7f0c0067;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c006d;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c006e;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c0068;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c0069;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c006a;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c006b;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0c006c;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c006f;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0070;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0071;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0072;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c0073;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0074;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0c0075;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0c0076;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c0077;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0078;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0079;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c007a;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c007b;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c007c;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c007d;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c007e;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c007f;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0c0080;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0081;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c0082;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c0083;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c0084;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c0085;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0086;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0087;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0088;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0c0089;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c008a;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c008b;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0c008c;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c008d;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c008e;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c008f;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0090;
-    public static final int Platform_AppCompat=0x7f0c0091;
-    public static final int Platform_AppCompat_Light=0x7f0c0092;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c0093;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c0094;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c0095;
-    public static final int Platform_V11_AppCompat=0x7f0c0096;
-    public static final int Platform_V11_AppCompat_Light=0x7f0c0097;
-    public static final int Platform_V14_AppCompat=0x7f0c0098;
-    public static final int Platform_V14_AppCompat_Light=0x7f0c0099;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c009a;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c009b;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c009c;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c009d;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c009e;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c009f;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00a0;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00a6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00a1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00a2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00a3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00a4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00a5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00a7;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00a8;
-    public static final int TextAppearance_AppCompat=0x7f0c00a9;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0c00aa;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0c00ab;
-    public static final int TextAppearance_AppCompat_Button=0x7f0c00ac;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0c00ad;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0c00ae;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0c00af;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0c00b0;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0c00b1;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0c00b2;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00b3;
-    public static final int TextAppearance_AppCompat_Large=0x7f0c00b4;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00b5;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00b6;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00b7;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00b8;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00b9;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0c00ba;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00bb;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0c00bc;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00bd;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00be;
-    public static final int TextAppearance_AppCompat_Small=0x7f0c00bf;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00c0;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00c1;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00c2;
-    public static final int TextAppearance_AppCompat_Title=0x7f0c00c3;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00c4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00c5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00c6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00c7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00c8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00c9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00ca;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00cb;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00cc;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00cd;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00ce;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00cf;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00d0;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00d1;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00d2;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00d3;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00d4;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0c00d5;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00d6;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00d7;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00d8;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00d9;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00da;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00db;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00dc;
-    public static final int ThemeOverlay_AppCompat=0x7f0c00eb;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c00ec;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c00ed;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c00ee;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0c00ef;
-    public static final int Theme_AppCompat=0x7f0c00dd;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0c00de;
-    public static final int Theme_AppCompat_Dialog=0x7f0c00df;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00e2;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c00e0;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c00e1;
-    public static final int Theme_AppCompat_Light=0x7f0c00e3;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00e4;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0c00e5;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00e8;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c00e6;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c00e7;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00e9;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0c00ea;
-    public static final int Widget_AppCompat_ActionBar=0x7f0c00f0;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c00f1;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c00f2;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c00f3;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c00f4;
-    public static final int Widget_AppCompat_ActionButton=0x7f0c00f5;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c00f6;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c00f7;
-    public static final int Widget_AppCompat_ActionMode=0x7f0c00f8;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c00f9;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c00fa;
-    public static final int Widget_AppCompat_Button=0x7f0c00fb;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0c0101;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0102;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0c00fc;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c00fd;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c00fe;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0c00ff;
-    public static final int Widget_AppCompat_Button_Small=0x7f0c0100;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0103;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0104;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c0105;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c0106;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c0107;
-    public static final int Widget_AppCompat_EditText=0x7f0c0108;
-    public static final int Widget_AppCompat_ImageButton=0x7f0c0109;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c010a;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c010b;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c010c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c010d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c010e;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c010f;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0110;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0111;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0112;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0113;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c0114;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c0115;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c0116;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0117;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0118;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c0119;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c011a;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c011b;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c011c;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c011d;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0c011e;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c011f;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0120;
-    public static final int Widget_AppCompat_ListView=0x7f0c0121;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0122;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0c0123;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0c0124;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c0125;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0c0126;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0c0127;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0128;
-    public static final int Widget_AppCompat_RatingBar=0x7f0c0129;
-    public static final int Widget_AppCompat_SearchView=0x7f0c012a;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c012b;
-    public static final int Widget_AppCompat_SeekBar=0x7f0c012c;
-    public static final int Widget_AppCompat_Spinner=0x7f0c012d;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c012e;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c012f;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c0130;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0131;
-    public static final int Widget_AppCompat_Toolbar=0x7f0c0132;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0133;
+    public static final int AlertDialog_AppCompat=0x7f0d0000;
+    public static final int AlertDialog_AppCompat_Light=0x7f0d0001;
+    public static final int Animation_AppCompat_Dialog=0x7f0d0002;
+    public static final int Animation_AppCompat_DropDownUp=0x7f0d0003;
+    public static final int AppTheme=0x7f0d0004;
+    public static final int Base_AlertDialog_AppCompat=0x7f0d0005;
+    public static final int Base_AlertDialog_AppCompat_Light=0x7f0d0006;
+    public static final int Base_Animation_AppCompat_Dialog=0x7f0d0007;
+    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0d0008;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0d000a;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0d0009;
+    public static final int Base_TextAppearance_AppCompat=0x7f0d000b;
+    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0d000c;
+    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0d000d;
+    public static final int Base_TextAppearance_AppCompat_Button=0x7f0d000e;
+    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0d000f;
+    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0d0010;
+    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0d0011;
+    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0d0012;
+    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0d0013;
+    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0d0014;
+    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0d0015;
+    public static final int Base_TextAppearance_AppCompat_Large=0x7f0d0016;
+    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0d0017;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d0018;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d0019;
+    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0d001a;
+    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0d001b;
+    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0d001c;
+    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0d001d;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d001e;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0d001f;
+    public static final int Base_TextAppearance_AppCompat_Small=0x7f0d0020;
+    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0d0021;
+    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0d0022;
+    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0d0023;
+    public static final int Base_TextAppearance_AppCompat_Title=0x7f0d0024;
+    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0d0025;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d0026;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d0027;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d0028;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d0029;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d002a;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d002b;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d002c;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0d002d;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d002e;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0d0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d0033;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d0034;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d0035;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d0036;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0d0045;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0d0046;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0d0047;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d0048;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0d0049;
+    public static final int Base_Theme_AppCompat=0x7f0d0037;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0d0038;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0d0039;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0d003d;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0d003a;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0d003b;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0d003c;
+    public static final int Base_Theme_AppCompat_Light=0x7f0d003e;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0d003f;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0d0040;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0d0044;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0d0041;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0d0042;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0043;
+    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0d004a;
+    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0d004b;
+    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0d004c;
+    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0d004d;
+    public static final int Base_V21_Theme_AppCompat=0x7f0d004e;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0d004f;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0d0050;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0d0051;
+    public static final int Base_V22_Theme_AppCompat=0x7f0d0052;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0d0053;
+    public static final int Base_V23_Theme_AppCompat=0x7f0d0054;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0d0055;
+    public static final int Base_V7_Theme_AppCompat=0x7f0d0056;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d0057;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d0058;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0059;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d005a;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d005b;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d005c;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d005d;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d005e;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d005f;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d0060;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d0061;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d0062;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d0063;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d0064;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d0065;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d0066;
+    public static final int Base_Widget_AppCompat_Button=0x7f0d0067;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d006d;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d006e;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0068;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0069;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d006a;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d006b;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d006c;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d006f;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0070;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d0071;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d0072;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d0073;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d0074;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0d0075;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d0076;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d0077;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0078;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0079;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d007a;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d007b;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d007c;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d007d;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d007e;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d007f;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0d0080;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d0081;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d0082;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d0083;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d0084;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d0085;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d0086;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0087;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0088;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0089;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d008a;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0d008b;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d008c;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d008d;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0d008e;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d008f;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d0090;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d0091;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d0092;
+    public static final int Platform_AppCompat=0x7f0d0093;
+    public static final int Platform_AppCompat_Light=0x7f0d0094;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d0095;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d0096;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d0097;
+    public static final int Platform_V11_AppCompat=0x7f0d0098;
+    public static final int Platform_V11_AppCompat_Light=0x7f0d0099;
+    public static final int Platform_V14_AppCompat=0x7f0d009a;
+    public static final int Platform_V14_AppCompat_Light=0x7f0d009b;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d009c;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d009d;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d009e;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d009f;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00a0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00a1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00a2;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00a8;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00a3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00a4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00a5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00a6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00a7;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00a9;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00aa;
+    public static final int SplashTheme=0x7f0d00ab;
+    public static final int TextAppearance_AppCompat=0x7f0d00ac;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0d00ad;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0d00ae;
+    public static final int TextAppearance_AppCompat_Button=0x7f0d00af;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0d00b0;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0d00b1;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0d00b2;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0d00b3;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0d00b4;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0d00b5;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00b6;
+    public static final int TextAppearance_AppCompat_Large=0x7f0d00b7;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00b8;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00b9;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00ba;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00bb;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00bc;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0d00bd;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00be;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0d00bf;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00c0;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00c1;
+    public static final int TextAppearance_AppCompat_Small=0x7f0d00c2;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00c3;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00c4;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00c5;
+    public static final int TextAppearance_AppCompat_Title=0x7f0d00c6;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00c7;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00c8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00c9;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00ca;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00cb;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00cc;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00cd;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00ce;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00cf;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00d0;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00d1;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00d2;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00d3;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00d4;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00d5;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00d6;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00d7;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0d00d8;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0d00d9;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0d00da;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0d00db;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0d00dc;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00dd;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00de;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00df;
+    public static final int ThemeOverlay_AppCompat=0x7f0d00f5;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d00f6;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d00f7;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d00f8;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0d00f9;
+    public static final int Theme_AppCompat=0x7f0d00e0;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0d00e1;
+    public static final int Theme_AppCompat_DayNight=0x7f0d00e2;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00e3;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00e4;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d00e7;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00e5;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00e6;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d00e8;
+    public static final int Theme_AppCompat_Dialog=0x7f0d00e9;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d00ec;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d00ea;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d00eb;
+    public static final int Theme_AppCompat_Light=0x7f0d00ed;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d00ee;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0d00ef;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d00f2;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d00f0;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d00f1;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d00f3;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0d00f4;
+    public static final int Widget_AppCompat_ActionBar=0x7f0d00fa;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d00fb;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d00fc;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d00fd;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d00fe;
+    public static final int Widget_AppCompat_ActionButton=0x7f0d00ff;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d0100;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d0101;
+    public static final int Widget_AppCompat_ActionMode=0x7f0d0102;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d0103;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d0104;
+    public static final int Widget_AppCompat_Button=0x7f0d0105;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0d010b;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d010c;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0d0106;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d0107;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0108;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0d0109;
+    public static final int Widget_AppCompat_Button_Small=0x7f0d010a;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d010d;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d010e;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d010f;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d0110;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d0111;
+    public static final int Widget_AppCompat_EditText=0x7f0d0112;
+    public static final int Widget_AppCompat_ImageButton=0x7f0d0113;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d0114;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0115;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d0116;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0117;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d0118;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0119;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d011a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d011b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d011c;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d011d;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d011e;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d011f;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d0120;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d0121;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d0122;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d0123;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d0124;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d0125;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d0126;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0127;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0d0128;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d0129;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d012a;
+    public static final int Widget_AppCompat_ListView=0x7f0d012b;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d012c;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0d012d;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0d012e;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d012f;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0d0130;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0d0131;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0132;
+    public static final int Widget_AppCompat_RatingBar=0x7f0d0133;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d0134;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d0135;
+    public static final int Widget_AppCompat_SearchView=0x7f0d0136;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d0137;
+    public static final int Widget_AppCompat_SeekBar=0x7f0d0138;
+    public static final int Widget_AppCompat_Spinner=0x7f0d0139;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d013a;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d013b;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d013c;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d013d;
+    public static final int Widget_AppCompat_Toolbar=0x7f0d013e;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d013f;
   }
   public static final class styleable {
     /**
@@ -2778,8 +2832,8 @@ public final class R {
         0x7f020055, 0x7f020056, 0x7f020061, 0x7f020065, 
         0x7f020066, 0x7f020067, 0x7f020068, 0x7f020069, 
         0x7f02006c, 0x7f02006f, 0x7f0200a6, 0x7f0200ad, 
-        0x7f0200b5, 0x7f0200b8, 0x7f0200b9, 0x7f0200ce, 
-        0x7f0200d1, 0x7f0200e3, 0x7f0200eb
+        0x7f0200b5, 0x7f0200b8, 0x7f0200b9, 0x7f0200d1, 
+        0x7f0200d4, 0x7f0200e6, 0x7f0200ee
       };
     /**
      * Attributes that can be used with a ActionBarLayout.
@@ -3224,7 +3278,7 @@ public final class R {
      */
     public static final int[] ActionMode={
         0x7f02002a, 0x7f02002b, 0x7f02003e, 0x7f020065, 
-        0x7f0200d1, 0x7f0200eb
+        0x7f0200d4, 0x7f0200ee
       };
     /**
      * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#background}
@@ -3363,7 +3417,7 @@ public final class R {
      */
     public static final int[] AlertDialog={
         0x010100f2, 0x7f020036, 0x7f02009e, 0x7f02009f, 
-        0x7f0200aa, 0x7f0200c7
+        0x7f0200aa, 0x7f0200c9
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3438,6 +3492,49 @@ public final class R {
      */
     public static final int AlertDialog_singleChoiceItemLayout=5;
     /**
+     * Attributes that can be used with a AppCompatImageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat lab4.android.wku.edu.autopurchase:srcCompat}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatImageView_android_src
+     * @see #AppCompatImageView_srcCompat
+     */
+    public static final int[] AppCompatImageView={
+        0x01010119, 0x7f0200ce
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#src}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:src
+     */
+    public static final int AppCompatImageView_android_src=0;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:srcCompat
+     */
+    public static final int AppCompatImageView_srcCompat=1;
+    /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -3451,7 +3548,7 @@ public final class R {
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f0200d7
+        0x01010034, 0x7f0200da
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -3479,6 +3576,1652 @@ public final class R {
      * @attr name lab4.android.wku.edu.autopurchase:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
+    /**
+     * Attributes that can be used with a AppCompatTheme.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider lab4.android.wku.edu.autopurchase:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground lab4.android.wku.edu.autopurchase:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme lab4.android.wku.edu.autopurchase:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize lab4.android.wku.edu.autopurchase:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle lab4.android.wku.edu.autopurchase:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle lab4.android.wku.edu.autopurchase:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle lab4.android.wku.edu.autopurchase:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle lab4.android.wku.edu.autopurchase:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle lab4.android.wku.edu.autopurchase:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme lab4.android.wku.edu.autopurchase:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme lab4.android.wku.edu.autopurchase:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle lab4.android.wku.edu.autopurchase:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle lab4.android.wku.edu.autopurchase:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance lab4.android.wku.edu.autopurchase:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor lab4.android.wku.edu.autopurchase:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground lab4.android.wku.edu.autopurchase:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle lab4.android.wku.edu.autopurchase:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable lab4.android.wku.edu.autopurchase:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable lab4.android.wku.edu.autopurchase:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable lab4.android.wku.edu.autopurchase:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable lab4.android.wku.edu.autopurchase:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable lab4.android.wku.edu.autopurchase:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle lab4.android.wku.edu.autopurchase:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable lab4.android.wku.edu.autopurchase:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable lab4.android.wku.edu.autopurchase:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground lab4.android.wku.edu.autopurchase:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle lab4.android.wku.edu.autopurchase:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable lab4.android.wku.edu.autopurchase:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle lab4.android.wku.edu.autopurchase:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle lab4.android.wku.edu.autopurchase:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle lab4.android.wku.edu.autopurchase:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle lab4.android.wku.edu.autopurchase:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons lab4.android.wku.edu.autopurchase:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle lab4.android.wku.edu.autopurchase:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme lab4.android.wku.edu.autopurchase:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle lab4.android.wku.edu.autopurchase:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle lab4.android.wku.edu.autopurchase:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle lab4.android.wku.edu.autopurchase:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle lab4.android.wku.edu.autopurchase:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle lab4.android.wku.edu.autopurchase:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle lab4.android.wku.edu.autopurchase:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle lab4.android.wku.edu.autopurchase:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle lab4.android.wku.edu.autopurchase:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall lab4.android.wku.edu.autopurchase:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle lab4.android.wku.edu.autopurchase:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle lab4.android.wku.edu.autopurchase:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent lab4.android.wku.edu.autopurchase:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal lab4.android.wku.edu.autopurchase:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated lab4.android.wku.edu.autopurchase:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight lab4.android.wku.edu.autopurchase:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal lab4.android.wku.edu.autopurchase:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary lab4.android.wku.edu.autopurchase:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark lab4.android.wku.edu.autopurchase:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal lab4.android.wku.edu.autopurchase:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground lab4.android.wku.edu.autopurchase:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding lab4.android.wku.edu.autopurchase:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme lab4.android.wku.edu.autopurchase:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal lab4.android.wku.edu.autopurchase:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical lab4.android.wku.edu.autopurchase:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle lab4.android.wku.edu.autopurchase:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight lab4.android.wku.edu.autopurchase:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground lab4.android.wku.edu.autopurchase:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor lab4.android.wku.edu.autopurchase:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle lab4.android.wku.edu.autopurchase:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator lab4.android.wku.edu.autopurchase:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle lab4.android.wku.edu.autopurchase:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator lab4.android.wku.edu.autopurchase:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog lab4.android.wku.edu.autopurchase:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle lab4.android.wku.edu.autopurchase:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight lab4.android.wku.edu.autopurchase:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge lab4.android.wku.edu.autopurchase:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall lab4.android.wku.edu.autopurchase:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft lab4.android.wku.edu.autopurchase:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight lab4.android.wku.edu.autopurchase:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground lab4.android.wku.edu.autopurchase:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme lab4.android.wku.edu.autopurchase:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth lab4.android.wku.edu.autopurchase:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle lab4.android.wku.edu.autopurchase:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle lab4.android.wku.edu.autopurchase:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle lab4.android.wku.edu.autopurchase:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle lab4.android.wku.edu.autopurchase:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator lab4.android.wku.edu.autopurchase:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall lab4.android.wku.edu.autopurchase:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle lab4.android.wku.edu.autopurchase:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle lab4.android.wku.edu.autopurchase:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground lab4.android.wku.edu.autopurchase:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless lab4.android.wku.edu.autopurchase:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle lab4.android.wku.edu.autopurchase:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle lab4.android.wku.edu.autopurchase:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle lab4.android.wku.edu.autopurchase:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu lab4.android.wku.edu.autopurchase:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem lab4.android.wku.edu.autopurchase:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall lab4.android.wku.edu.autopurchase:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle lab4.android.wku.edu.autopurchase:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle lab4.android.wku.edu.autopurchase:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu lab4.android.wku.edu.autopurchase:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem lab4.android.wku.edu.autopurchase:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl lab4.android.wku.edu.autopurchase:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle lab4.android.wku.edu.autopurchase:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle lab4.android.wku.edu.autopurchase:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar lab4.android.wku.edu.autopurchase:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay lab4.android.wku.edu.autopurchase:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay lab4.android.wku.edu.autopurchase:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor lab4.android.wku.edu.autopurchase:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor lab4.android.wku.edu.autopurchase:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor lab4.android.wku.edu.autopurchase:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor lab4.android.wku.edu.autopurchase:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor lab4.android.wku.edu.autopurchase:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor lab4.android.wku.edu.autopurchase:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle lab4.android.wku.edu.autopurchase:windowNoTitle}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatTheme_android_windowIsFloating
+     * @see #AppCompatTheme_android_windowAnimationStyle
+     * @see #AppCompatTheme_actionBarDivider
+     * @see #AppCompatTheme_actionBarItemBackground
+     * @see #AppCompatTheme_actionBarPopupTheme
+     * @see #AppCompatTheme_actionBarSize
+     * @see #AppCompatTheme_actionBarSplitStyle
+     * @see #AppCompatTheme_actionBarStyle
+     * @see #AppCompatTheme_actionBarTabBarStyle
+     * @see #AppCompatTheme_actionBarTabStyle
+     * @see #AppCompatTheme_actionBarTabTextStyle
+     * @see #AppCompatTheme_actionBarTheme
+     * @see #AppCompatTheme_actionBarWidgetTheme
+     * @see #AppCompatTheme_actionButtonStyle
+     * @see #AppCompatTheme_actionDropDownStyle
+     * @see #AppCompatTheme_actionMenuTextAppearance
+     * @see #AppCompatTheme_actionMenuTextColor
+     * @see #AppCompatTheme_actionModeBackground
+     * @see #AppCompatTheme_actionModeCloseButtonStyle
+     * @see #AppCompatTheme_actionModeCloseDrawable
+     * @see #AppCompatTheme_actionModeCopyDrawable
+     * @see #AppCompatTheme_actionModeCutDrawable
+     * @see #AppCompatTheme_actionModeFindDrawable
+     * @see #AppCompatTheme_actionModePasteDrawable
+     * @see #AppCompatTheme_actionModePopupWindowStyle
+     * @see #AppCompatTheme_actionModeSelectAllDrawable
+     * @see #AppCompatTheme_actionModeShareDrawable
+     * @see #AppCompatTheme_actionModeSplitBackground
+     * @see #AppCompatTheme_actionModeStyle
+     * @see #AppCompatTheme_actionModeWebSearchDrawable
+     * @see #AppCompatTheme_actionOverflowButtonStyle
+     * @see #AppCompatTheme_actionOverflowMenuStyle
+     * @see #AppCompatTheme_activityChooserViewStyle
+     * @see #AppCompatTheme_alertDialogButtonGroupStyle
+     * @see #AppCompatTheme_alertDialogCenterButtons
+     * @see #AppCompatTheme_alertDialogStyle
+     * @see #AppCompatTheme_alertDialogTheme
+     * @see #AppCompatTheme_autoCompleteTextViewStyle
+     * @see #AppCompatTheme_borderlessButtonStyle
+     * @see #AppCompatTheme_buttonBarButtonStyle
+     * @see #AppCompatTheme_buttonBarNegativeButtonStyle
+     * @see #AppCompatTheme_buttonBarNeutralButtonStyle
+     * @see #AppCompatTheme_buttonBarPositiveButtonStyle
+     * @see #AppCompatTheme_buttonBarStyle
+     * @see #AppCompatTheme_buttonStyle
+     * @see #AppCompatTheme_buttonStyleSmall
+     * @see #AppCompatTheme_checkboxStyle
+     * @see #AppCompatTheme_checkedTextViewStyle
+     * @see #AppCompatTheme_colorAccent
+     * @see #AppCompatTheme_colorButtonNormal
+     * @see #AppCompatTheme_colorControlActivated
+     * @see #AppCompatTheme_colorControlHighlight
+     * @see #AppCompatTheme_colorControlNormal
+     * @see #AppCompatTheme_colorPrimary
+     * @see #AppCompatTheme_colorPrimaryDark
+     * @see #AppCompatTheme_colorSwitchThumbNormal
+     * @see #AppCompatTheme_controlBackground
+     * @see #AppCompatTheme_dialogPreferredPadding
+     * @see #AppCompatTheme_dialogTheme
+     * @see #AppCompatTheme_dividerHorizontal
+     * @see #AppCompatTheme_dividerVertical
+     * @see #AppCompatTheme_dropDownListViewStyle
+     * @see #AppCompatTheme_dropdownListPreferredItemHeight
+     * @see #AppCompatTheme_editTextBackground
+     * @see #AppCompatTheme_editTextColor
+     * @see #AppCompatTheme_editTextStyle
+     * @see #AppCompatTheme_homeAsUpIndicator
+     * @see #AppCompatTheme_imageButtonStyle
+     * @see #AppCompatTheme_listChoiceBackgroundIndicator
+     * @see #AppCompatTheme_listDividerAlertDialog
+     * @see #AppCompatTheme_listPopupWindowStyle
+     * @see #AppCompatTheme_listPreferredItemHeight
+     * @see #AppCompatTheme_listPreferredItemHeightLarge
+     * @see #AppCompatTheme_listPreferredItemHeightSmall
+     * @see #AppCompatTheme_listPreferredItemPaddingLeft
+     * @see #AppCompatTheme_listPreferredItemPaddingRight
+     * @see #AppCompatTheme_panelBackground
+     * @see #AppCompatTheme_panelMenuListTheme
+     * @see #AppCompatTheme_panelMenuListWidth
+     * @see #AppCompatTheme_popupMenuStyle
+     * @see #AppCompatTheme_popupWindowStyle
+     * @see #AppCompatTheme_radioButtonStyle
+     * @see #AppCompatTheme_ratingBarStyle
+     * @see #AppCompatTheme_ratingBarStyleIndicator
+     * @see #AppCompatTheme_ratingBarStyleSmall
+     * @see #AppCompatTheme_searchViewStyle
+     * @see #AppCompatTheme_seekBarStyle
+     * @see #AppCompatTheme_selectableItemBackground
+     * @see #AppCompatTheme_selectableItemBackgroundBorderless
+     * @see #AppCompatTheme_spinnerDropDownItemStyle
+     * @see #AppCompatTheme_spinnerStyle
+     * @see #AppCompatTheme_switchStyle
+     * @see #AppCompatTheme_textAppearanceLargePopupMenu
+     * @see #AppCompatTheme_textAppearanceListItem
+     * @see #AppCompatTheme_textAppearanceListItemSmall
+     * @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+     * @see #AppCompatTheme_textAppearanceSearchResultTitle
+     * @see #AppCompatTheme_textAppearanceSmallPopupMenu
+     * @see #AppCompatTheme_textColorAlertDialogListItem
+     * @see #AppCompatTheme_textColorSearchUrl
+     * @see #AppCompatTheme_toolbarNavigationButtonStyle
+     * @see #AppCompatTheme_toolbarStyle
+     * @see #AppCompatTheme_windowActionBar
+     * @see #AppCompatTheme_windowActionBarOverlay
+     * @see #AppCompatTheme_windowActionModeOverlay
+     * @see #AppCompatTheme_windowFixedHeightMajor
+     * @see #AppCompatTheme_windowFixedHeightMinor
+     * @see #AppCompatTheme_windowFixedWidthMajor
+     * @see #AppCompatTheme_windowFixedWidthMinor
+     * @see #AppCompatTheme_windowMinWidthMajor
+     * @see #AppCompatTheme_windowMinWidthMinor
+     * @see #AppCompatTheme_windowNoTitle
+     */
+    public static final int[] AppCompatTheme={
+        0x01010057, 0x010100ae, 0x7f020000, 0x7f020001, 
+        0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
+        0x7f020006, 0x7f020007, 0x7f020008, 0x7f020009, 
+        0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000e, 
+        0x7f02000f, 0x7f020010, 0x7f020011, 0x7f020012, 
+        0x7f020013, 0x7f020014, 0x7f020015, 0x7f020016, 
+        0x7f020017, 0x7f020018, 0x7f020019, 0x7f02001a, 
+        0x7f02001b, 0x7f02001c, 0x7f02001d, 0x7f02001e, 
+        0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
+        0x7f020025, 0x7f020029, 0x7f020030, 0x7f020031, 
+        0x7f020032, 0x7f020033, 0x7f020034, 0x7f020035, 
+        0x7f020037, 0x7f020038, 0x7f02003b, 0x7f02003c, 
+        0x7f020042, 0x7f020043, 0x7f020044, 0x7f020045, 
+        0x7f020046, 0x7f020047, 0x7f020048, 0x7f020049, 
+        0x7f020050, 0x7f020053, 0x7f020054, 0x7f020057, 
+        0x7f020059, 0x7f02005c, 0x7f02005d, 0x7f02005e, 
+        0x7f02005f, 0x7f020060, 0x7f020067, 0x7f02006b, 
+        0x7f02009c, 0x7f02009d, 0x7f0200a0, 0x7f0200a1, 
+        0x7f0200a2, 0x7f0200a3, 0x7f0200a4, 0x7f0200a5, 
+        0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 
+        0x7f0200b6, 0x7f0200bc, 0x7f0200bd, 0x7f0200be, 
+        0x7f0200bf, 0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 
+        0x7f0200c5, 0x7f0200cb, 0x7f0200cc, 0x7f0200d8, 
+        0x7f0200db, 0x7f0200dc, 0x7f0200dd, 0x7f0200de, 
+        0x7f0200df, 0x7f0200e0, 0x7f0200e1, 0x7f0200e2, 
+        0x7f0200ef, 0x7f0200f0, 0x7f0200f3, 0x7f0200f4, 
+        0x7f0200f5, 0x7f0200f6, 0x7f0200f7, 0x7f0200f8, 
+        0x7f0200f9, 0x7f0200fa, 0x7f0200fb, 0x7f0200fc
+      };
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarDivider
+     */
+    public static final int AppCompatTheme_actionBarDivider=2;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarItemBackground
+     */
+    public static final int AppCompatTheme_actionBarItemBackground=3;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarPopupTheme
+     */
+    public static final int AppCompatTheme_actionBarPopupTheme=4;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarSize
+     */
+    public static final int AppCompatTheme_actionBarSize=5;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarSplitStyle
+     */
+    public static final int AppCompatTheme_actionBarSplitStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarStyle
+     */
+    public static final int AppCompatTheme_actionBarStyle=7;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabBarStyle
+     */
+    public static final int AppCompatTheme_actionBarTabBarStyle=8;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabStyle
+     */
+    public static final int AppCompatTheme_actionBarTabStyle=9;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabTextStyle
+     */
+    public static final int AppCompatTheme_actionBarTabTextStyle=10;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarTheme
+     */
+    public static final int AppCompatTheme_actionBarTheme=11;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionBarWidgetTheme
+     */
+    public static final int AppCompatTheme_actionBarWidgetTheme=12;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionButtonStyle
+     */
+    public static final int AppCompatTheme_actionButtonStyle=13;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionDropDownStyle
+     */
+    public static final int AppCompatTheme_actionDropDownStyle=14;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionMenuTextAppearance
+     */
+    public static final int AppCompatTheme_actionMenuTextAppearance=15;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionMenuTextColor
+     */
+    public static final int AppCompatTheme_actionMenuTextColor=16;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeBackground
+     */
+    public static final int AppCompatTheme_actionModeBackground=17;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCloseButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeCloseButtonStyle
+     */
+    public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeCloseDrawable
+     */
+    public static final int AppCompatTheme_actionModeCloseDrawable=19;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeCopyDrawable
+     */
+    public static final int AppCompatTheme_actionModeCopyDrawable=20;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeCutDrawable
+     */
+    public static final int AppCompatTheme_actionModeCutDrawable=21;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeFindDrawable
+     */
+    public static final int AppCompatTheme_actionModeFindDrawable=22;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModePasteDrawable
+     */
+    public static final int AppCompatTheme_actionModePasteDrawable=23;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModePopupWindowStyle
+     */
+    public static final int AppCompatTheme_actionModePopupWindowStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeSelectAllDrawable
+     */
+    public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeShareDrawable
+     */
+    public static final int AppCompatTheme_actionModeShareDrawable=26;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeSplitBackground
+     */
+    public static final int AppCompatTheme_actionModeSplitBackground=27;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeStyle
+     */
+    public static final int AppCompatTheme_actionModeStyle=28;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionModeWebSearchDrawable
+     */
+    public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionOverflowButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionOverflowButtonStyle
+     */
+    public static final int AppCompatTheme_actionOverflowButtonStyle=30;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionOverflowMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:actionOverflowMenuStyle
+     */
+    public static final int AppCompatTheme_actionOverflowMenuStyle=31;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#activityChooserViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:activityChooserViewStyle
+     */
+    public static final int AppCompatTheme_activityChooserViewStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogButtonGroupStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:alertDialogButtonGroupStyle
+     */
+    public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogCenterButtons}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:alertDialogCenterButtons
+     */
+    public static final int AppCompatTheme_alertDialogCenterButtons=34;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:alertDialogStyle
+     */
+    public static final int AppCompatTheme_alertDialogStyle=35;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:alertDialogTheme
+     */
+    public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:autoCompleteTextViewStyle
+     */
+    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:borderlessButtonStyle
+     */
+    public static final int AppCompatTheme_borderlessButtonStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonBarButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarButtonStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonBarNegativeButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonBarNeutralButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonBarPositiveButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonBarStyle
+     */
+    public static final int AppCompatTheme_buttonBarStyle=43;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonStyle
+     */
+    public static final int AppCompatTheme_buttonStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:buttonStyleSmall
+     */
+    public static final int AppCompatTheme_buttonStyleSmall=45;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:checkboxStyle
+     */
+    public static final int AppCompatTheme_checkboxStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:checkedTextViewStyle
+     */
+    public static final int AppCompatTheme_checkedTextViewStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorAccent
+     */
+    public static final int AppCompatTheme_colorAccent=48;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorButtonNormal
+     */
+    public static final int AppCompatTheme_colorButtonNormal=49;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorControlActivated
+     */
+    public static final int AppCompatTheme_colorControlActivated=50;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorControlHighlight
+     */
+    public static final int AppCompatTheme_colorControlHighlight=51;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorControlNormal
+     */
+    public static final int AppCompatTheme_colorControlNormal=52;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=53;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=54;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=55;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=56;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=57;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=58;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=59;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=60;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=61;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=62;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=63;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:editTextColor
+     */
+    public static final int AppCompatTheme_editTextColor=64;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:editTextStyle
+     */
+    public static final int AppCompatTheme_editTextStyle=65;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=66;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=67;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=68;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=69;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPopupWindowStyle
+     */
+    public static final int AppCompatTheme_listPopupWindowStyle=70;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeight
+     */
+    public static final int AppCompatTheme_listPreferredItemHeight=71;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeightLarge
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=72;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeightSmall
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=73;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemPaddingLeft
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=74;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemPaddingRight
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=75;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:panelBackground
+     */
+    public static final int AppCompatTheme_panelBackground=76;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:panelMenuListTheme
+     */
+    public static final int AppCompatTheme_panelMenuListTheme=77;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:panelMenuListWidth
+     */
+    public static final int AppCompatTheme_panelMenuListWidth=78;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:popupMenuStyle
+     */
+    public static final int AppCompatTheme_popupMenuStyle=79;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:popupWindowStyle
+     */
+    public static final int AppCompatTheme_popupWindowStyle=80;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:radioButtonStyle
+     */
+    public static final int AppCompatTheme_radioButtonStyle=81;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:ratingBarStyle
+     */
+    public static final int AppCompatTheme_ratingBarStyle=82;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:ratingBarStyleIndicator
+     */
+    public static final int AppCompatTheme_ratingBarStyleIndicator=83;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:ratingBarStyleSmall
+     */
+    public static final int AppCompatTheme_ratingBarStyleSmall=84;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:searchViewStyle
+     */
+    public static final int AppCompatTheme_searchViewStyle=85;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:seekBarStyle
+     */
+    public static final int AppCompatTheme_seekBarStyle=86;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:selectableItemBackground
+     */
+    public static final int AppCompatTheme_selectableItemBackground=87;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:selectableItemBackgroundBorderless
+     */
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=88;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:spinnerDropDownItemStyle
+     */
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=89;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:spinnerStyle
+     */
+    public static final int AppCompatTheme_spinnerStyle=90;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:switchStyle
+     */
+    public static final int AppCompatTheme_switchStyle=91;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceLargePopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=92;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceListItem
+     */
+    public static final int AppCompatTheme_textAppearanceListItem=93;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceListItemSmall
+     */
+    public static final int AppCompatTheme_textAppearanceListItemSmall=94;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSearchResultSubtitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=95;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSearchResultTitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=96;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSmallPopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=97;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textColorAlertDialogListItem
+     */
+    public static final int AppCompatTheme_textColorAlertDialogListItem=98;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:textColorSearchUrl
+     */
+    public static final int AppCompatTheme_textColorSearchUrl=99;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:toolbarNavigationButtonStyle
+     */
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=100;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:toolbarStyle
+     */
+    public static final int AppCompatTheme_toolbarStyle=101;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowActionBar
+     */
+    public static final int AppCompatTheme_windowActionBar=102;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowActionBarOverlay
+     */
+    public static final int AppCompatTheme_windowActionBarOverlay=103;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowActionModeOverlay
+     */
+    public static final int AppCompatTheme_windowActionModeOverlay=104;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowFixedHeightMajor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMajor=105;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowFixedHeightMinor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMinor=106;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowFixedWidthMajor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMajor=107;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowFixedWidthMinor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMinor=108;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowMinWidthMajor
+     */
+    public static final int AppCompatTheme_windowMinWidthMajor=109;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowMinWidthMinor
+     */
+    public static final int AppCompatTheme_windowMinWidthMinor=110;
+    /**
+     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name lab4.android.wku.edu.autopurchase:windowNoTitle
+     */
+    public static final int AppCompatTheme_windowNoTitle=111;
     /**
      * Attributes that can be used with a ButtonBarLayout.
      * <p>Includes the following attributes:</p>
@@ -5486,7 +7229,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f020027, 0x7f020028, 0x7f02002f, 0x7f020041, 
-        0x7f02005a, 0x7f020063, 0x7f0200c8, 0x7f0200e1
+        0x7f02005a, 0x7f020063, 0x7f0200ca, 0x7f0200e4
       };
     /**
      * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#arrowHeadLength}
@@ -5648,7 +7391,7 @@ public final class R {
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
         0x01010128, 0x7f020056, 0x7f020058, 0x7f0200a9, 
-        0x7f0200c5
+        0x7f0200c7
       };
     /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -6075,7 +7818,7 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
-        0x7f0200c4
+        0x7f0200c6
       };
     /**
      * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionLayout}
@@ -6425,7 +8168,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0200cc
+        0x7f0200cf
       };
     /**
      * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#state_above_anchor}
@@ -6509,8 +8252,8 @@ public final class R {
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
         0x7f02003d, 0x7f02004a, 0x7f020052, 0x7f020064, 
         0x7f02006a, 0x7f020070, 0x7f0200ba, 0x7f0200bb, 
-        0x7f0200be, 0x7f0200bf, 0x7f0200cd, 0x7f0200d2, 
-        0x7f0200ef
+        0x7f0200c0, 0x7f0200c1, 0x7f0200d0, 0x7f0200d5, 
+        0x7f0200f2
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6770,18 +8513,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_popupTheme lab4.android.wku.edu.autopurchase:popupTheme}</code></td><td></td></tr>
      * </table>
+     * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
      * @see #Spinner_android_prompt
      * @see #Spinner_android_dropDownWidth
      * @see #Spinner_popupTheme
      */
     public static final int[] Spinner={
-        0x01010176, 0x0101017b, 0x01010262, 0x7f0200b5
+        0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
+        0x7f0200b5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -6805,7 +8551,19 @@ public final class R {
      *
      * @attr name android:dropDownWidth
      */
-    public static final int Spinner_android_dropDownWidth=2;
+    public static final int Spinner_android_dropDownWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:entries
+     */
+    public static final int Spinner_android_entries=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -6820,7 +8578,7 @@ public final class R {
      *
      * @attr name android:popupBackground
      */
-    public static final int Spinner_android_popupBackground=0;
+    public static final int Spinner_android_popupBackground=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#prompt}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -6832,7 +8590,7 @@ public final class R {
      *
      * @attr name android:prompt
      */
-    public static final int Spinner_android_prompt=1;
+    public static final int Spinner_android_prompt=2;
     /**
      * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -6844,7 +8602,7 @@ public final class R {
      *
      * @attr name lab4.android.wku.edu.autopurchase:popupTheme
      */
-    public static final int Spinner_popupTheme=3;
+    public static final int Spinner_popupTheme=4;
     /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
@@ -6875,9 +8633,9 @@ public final class R {
      * @see #SwitchCompat_track
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0200c6, 
-        0x7f0200cb, 0x7f0200d3, 0x7f0200d4, 0x7f0200d6, 
-        0x7f0200e2, 0x7f0200ee
+        0x01010124, 0x01010125, 0x01010142, 0x7f0200c8, 
+        0x7f0200cd, 0x7f0200d6, 0x7f0200d7, 0x7f0200d9, 
+        0x7f0200e5, 0x7f0200f1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -7024,7 +8782,7 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x01010161, 0x01010162, 0x01010163, 0x01010164, 
-        0x7f0200d7
+        0x7f0200da
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -7144,1624 +8902,6 @@ public final class R {
      */
     public static final int TextAppearance_textAllCaps=8;
     /**
-     * Attributes that can be used with a Theme.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarDivider lab4.android.wku.edu.autopurchase:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarItemBackground lab4.android.wku.edu.autopurchase:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarPopupTheme lab4.android.wku.edu.autopurchase:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSize lab4.android.wku.edu.autopurchase:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSplitStyle lab4.android.wku.edu.autopurchase:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarStyle lab4.android.wku.edu.autopurchase:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabBarStyle lab4.android.wku.edu.autopurchase:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabStyle lab4.android.wku.edu.autopurchase:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabTextStyle lab4.android.wku.edu.autopurchase:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTheme lab4.android.wku.edu.autopurchase:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarWidgetTheme lab4.android.wku.edu.autopurchase:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionButtonStyle lab4.android.wku.edu.autopurchase:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionDropDownStyle lab4.android.wku.edu.autopurchase:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextAppearance lab4.android.wku.edu.autopurchase:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextColor lab4.android.wku.edu.autopurchase:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeBackground lab4.android.wku.edu.autopurchase:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseButtonStyle lab4.android.wku.edu.autopurchase:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseDrawable lab4.android.wku.edu.autopurchase:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCopyDrawable lab4.android.wku.edu.autopurchase:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCutDrawable lab4.android.wku.edu.autopurchase:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeFindDrawable lab4.android.wku.edu.autopurchase:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePasteDrawable lab4.android.wku.edu.autopurchase:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePopupWindowStyle lab4.android.wku.edu.autopurchase:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSelectAllDrawable lab4.android.wku.edu.autopurchase:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeShareDrawable lab4.android.wku.edu.autopurchase:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSplitBackground lab4.android.wku.edu.autopurchase:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeStyle lab4.android.wku.edu.autopurchase:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeWebSearchDrawable lab4.android.wku.edu.autopurchase:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowButtonStyle lab4.android.wku.edu.autopurchase:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowMenuStyle lab4.android.wku.edu.autopurchase:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_activityChooserViewStyle lab4.android.wku.edu.autopurchase:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle lab4.android.wku.edu.autopurchase:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogCenterButtons lab4.android.wku.edu.autopurchase:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogStyle lab4.android.wku.edu.autopurchase:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogTheme lab4.android.wku.edu.autopurchase:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_autoCompleteTextViewStyle lab4.android.wku.edu.autopurchase:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_borderlessButtonStyle lab4.android.wku.edu.autopurchase:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarButtonStyle lab4.android.wku.edu.autopurchase:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle lab4.android.wku.edu.autopurchase:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle lab4.android.wku.edu.autopurchase:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle lab4.android.wku.edu.autopurchase:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarStyle lab4.android.wku.edu.autopurchase:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyle lab4.android.wku.edu.autopurchase:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyleSmall lab4.android.wku.edu.autopurchase:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkboxStyle lab4.android.wku.edu.autopurchase:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkedTextViewStyle lab4.android.wku.edu.autopurchase:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorAccent lab4.android.wku.edu.autopurchase:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorButtonNormal lab4.android.wku.edu.autopurchase:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlActivated lab4.android.wku.edu.autopurchase:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlHighlight lab4.android.wku.edu.autopurchase:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlNormal lab4.android.wku.edu.autopurchase:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimary lab4.android.wku.edu.autopurchase:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimaryDark lab4.android.wku.edu.autopurchase:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorSwitchThumbNormal lab4.android.wku.edu.autopurchase:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_controlBackground lab4.android.wku.edu.autopurchase:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogPreferredPadding lab4.android.wku.edu.autopurchase:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogTheme lab4.android.wku.edu.autopurchase:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerHorizontal lab4.android.wku.edu.autopurchase:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerVertical lab4.android.wku.edu.autopurchase:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropDownListViewStyle lab4.android.wku.edu.autopurchase:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight lab4.android.wku.edu.autopurchase:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextBackground lab4.android.wku.edu.autopurchase:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextColor lab4.android.wku.edu.autopurchase:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextStyle lab4.android.wku.edu.autopurchase:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_homeAsUpIndicator lab4.android.wku.edu.autopurchase:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_imageButtonStyle lab4.android.wku.edu.autopurchase:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator lab4.android.wku.edu.autopurchase:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listDividerAlertDialog lab4.android.wku.edu.autopurchase:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPopupWindowStyle lab4.android.wku.edu.autopurchase:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeight lab4.android.wku.edu.autopurchase:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightLarge lab4.android.wku.edu.autopurchase:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightSmall lab4.android.wku.edu.autopurchase:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft lab4.android.wku.edu.autopurchase:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingRight lab4.android.wku.edu.autopurchase:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelBackground lab4.android.wku.edu.autopurchase:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListTheme lab4.android.wku.edu.autopurchase:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListWidth lab4.android.wku.edu.autopurchase:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupMenuStyle lab4.android.wku.edu.autopurchase:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupWindowStyle lab4.android.wku.edu.autopurchase:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_radioButtonStyle lab4.android.wku.edu.autopurchase:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_ratingBarStyle lab4.android.wku.edu.autopurchase:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_searchViewStyle lab4.android.wku.edu.autopurchase:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_seekBarStyle lab4.android.wku.edu.autopurchase:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackground lab4.android.wku.edu.autopurchase:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless lab4.android.wku.edu.autopurchase:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerDropDownItemStyle lab4.android.wku.edu.autopurchase:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerStyle lab4.android.wku.edu.autopurchase:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_switchStyle lab4.android.wku.edu.autopurchase:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu lab4.android.wku.edu.autopurchase:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItem lab4.android.wku.edu.autopurchase:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItemSmall lab4.android.wku.edu.autopurchase:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle lab4.android.wku.edu.autopurchase:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle lab4.android.wku.edu.autopurchase:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu lab4.android.wku.edu.autopurchase:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorAlertDialogListItem lab4.android.wku.edu.autopurchase:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorSearchUrl lab4.android.wku.edu.autopurchase:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle lab4.android.wku.edu.autopurchase:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarStyle lab4.android.wku.edu.autopurchase:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBar lab4.android.wku.edu.autopurchase:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBarOverlay lab4.android.wku.edu.autopurchase:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionModeOverlay lab4.android.wku.edu.autopurchase:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMajor lab4.android.wku.edu.autopurchase:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMinor lab4.android.wku.edu.autopurchase:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMajor lab4.android.wku.edu.autopurchase:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMinor lab4.android.wku.edu.autopurchase:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMajor lab4.android.wku.edu.autopurchase:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMinor lab4.android.wku.edu.autopurchase:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowNoTitle lab4.android.wku.edu.autopurchase:windowNoTitle}</code></td><td></td></tr>
-     * </table>
-     * @see #Theme_android_windowIsFloating
-     * @see #Theme_android_windowAnimationStyle
-     * @see #Theme_actionBarDivider
-     * @see #Theme_actionBarItemBackground
-     * @see #Theme_actionBarPopupTheme
-     * @see #Theme_actionBarSize
-     * @see #Theme_actionBarSplitStyle
-     * @see #Theme_actionBarStyle
-     * @see #Theme_actionBarTabBarStyle
-     * @see #Theme_actionBarTabStyle
-     * @see #Theme_actionBarTabTextStyle
-     * @see #Theme_actionBarTheme
-     * @see #Theme_actionBarWidgetTheme
-     * @see #Theme_actionButtonStyle
-     * @see #Theme_actionDropDownStyle
-     * @see #Theme_actionMenuTextAppearance
-     * @see #Theme_actionMenuTextColor
-     * @see #Theme_actionModeBackground
-     * @see #Theme_actionModeCloseButtonStyle
-     * @see #Theme_actionModeCloseDrawable
-     * @see #Theme_actionModeCopyDrawable
-     * @see #Theme_actionModeCutDrawable
-     * @see #Theme_actionModeFindDrawable
-     * @see #Theme_actionModePasteDrawable
-     * @see #Theme_actionModePopupWindowStyle
-     * @see #Theme_actionModeSelectAllDrawable
-     * @see #Theme_actionModeShareDrawable
-     * @see #Theme_actionModeSplitBackground
-     * @see #Theme_actionModeStyle
-     * @see #Theme_actionModeWebSearchDrawable
-     * @see #Theme_actionOverflowButtonStyle
-     * @see #Theme_actionOverflowMenuStyle
-     * @see #Theme_activityChooserViewStyle
-     * @see #Theme_alertDialogButtonGroupStyle
-     * @see #Theme_alertDialogCenterButtons
-     * @see #Theme_alertDialogStyle
-     * @see #Theme_alertDialogTheme
-     * @see #Theme_autoCompleteTextViewStyle
-     * @see #Theme_borderlessButtonStyle
-     * @see #Theme_buttonBarButtonStyle
-     * @see #Theme_buttonBarNegativeButtonStyle
-     * @see #Theme_buttonBarNeutralButtonStyle
-     * @see #Theme_buttonBarPositiveButtonStyle
-     * @see #Theme_buttonBarStyle
-     * @see #Theme_buttonStyle
-     * @see #Theme_buttonStyleSmall
-     * @see #Theme_checkboxStyle
-     * @see #Theme_checkedTextViewStyle
-     * @see #Theme_colorAccent
-     * @see #Theme_colorButtonNormal
-     * @see #Theme_colorControlActivated
-     * @see #Theme_colorControlHighlight
-     * @see #Theme_colorControlNormal
-     * @see #Theme_colorPrimary
-     * @see #Theme_colorPrimaryDark
-     * @see #Theme_colorSwitchThumbNormal
-     * @see #Theme_controlBackground
-     * @see #Theme_dialogPreferredPadding
-     * @see #Theme_dialogTheme
-     * @see #Theme_dividerHorizontal
-     * @see #Theme_dividerVertical
-     * @see #Theme_dropDownListViewStyle
-     * @see #Theme_dropdownListPreferredItemHeight
-     * @see #Theme_editTextBackground
-     * @see #Theme_editTextColor
-     * @see #Theme_editTextStyle
-     * @see #Theme_homeAsUpIndicator
-     * @see #Theme_imageButtonStyle
-     * @see #Theme_listChoiceBackgroundIndicator
-     * @see #Theme_listDividerAlertDialog
-     * @see #Theme_listPopupWindowStyle
-     * @see #Theme_listPreferredItemHeight
-     * @see #Theme_listPreferredItemHeightLarge
-     * @see #Theme_listPreferredItemHeightSmall
-     * @see #Theme_listPreferredItemPaddingLeft
-     * @see #Theme_listPreferredItemPaddingRight
-     * @see #Theme_panelBackground
-     * @see #Theme_panelMenuListTheme
-     * @see #Theme_panelMenuListWidth
-     * @see #Theme_popupMenuStyle
-     * @see #Theme_popupWindowStyle
-     * @see #Theme_radioButtonStyle
-     * @see #Theme_ratingBarStyle
-     * @see #Theme_searchViewStyle
-     * @see #Theme_seekBarStyle
-     * @see #Theme_selectableItemBackground
-     * @see #Theme_selectableItemBackgroundBorderless
-     * @see #Theme_spinnerDropDownItemStyle
-     * @see #Theme_spinnerStyle
-     * @see #Theme_switchStyle
-     * @see #Theme_textAppearanceLargePopupMenu
-     * @see #Theme_textAppearanceListItem
-     * @see #Theme_textAppearanceListItemSmall
-     * @see #Theme_textAppearanceSearchResultSubtitle
-     * @see #Theme_textAppearanceSearchResultTitle
-     * @see #Theme_textAppearanceSmallPopupMenu
-     * @see #Theme_textColorAlertDialogListItem
-     * @see #Theme_textColorSearchUrl
-     * @see #Theme_toolbarNavigationButtonStyle
-     * @see #Theme_toolbarStyle
-     * @see #Theme_windowActionBar
-     * @see #Theme_windowActionBarOverlay
-     * @see #Theme_windowActionModeOverlay
-     * @see #Theme_windowFixedHeightMajor
-     * @see #Theme_windowFixedHeightMinor
-     * @see #Theme_windowFixedWidthMajor
-     * @see #Theme_windowFixedWidthMinor
-     * @see #Theme_windowMinWidthMajor
-     * @see #Theme_windowMinWidthMinor
-     * @see #Theme_windowNoTitle
-     */
-    public static final int[] Theme={
-        0x01010057, 0x010100ae, 0x7f020000, 0x7f020001, 
-        0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
-        0x7f020006, 0x7f020007, 0x7f020008, 0x7f020009, 
-        0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000e, 
-        0x7f02000f, 0x7f020010, 0x7f020011, 0x7f020012, 
-        0x7f020013, 0x7f020014, 0x7f020015, 0x7f020016, 
-        0x7f020017, 0x7f020018, 0x7f020019, 0x7f02001a, 
-        0x7f02001b, 0x7f02001c, 0x7f02001d, 0x7f02001e, 
-        0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
-        0x7f020025, 0x7f020029, 0x7f020030, 0x7f020031, 
-        0x7f020032, 0x7f020033, 0x7f020034, 0x7f020035, 
-        0x7f020037, 0x7f020038, 0x7f02003b, 0x7f02003c, 
-        0x7f020042, 0x7f020043, 0x7f020044, 0x7f020045, 
-        0x7f020046, 0x7f020047, 0x7f020048, 0x7f020049, 
-        0x7f020050, 0x7f020053, 0x7f020054, 0x7f020057, 
-        0x7f020059, 0x7f02005c, 0x7f02005d, 0x7f02005e, 
-        0x7f02005f, 0x7f020060, 0x7f020067, 0x7f02006b, 
-        0x7f02009c, 0x7f02009d, 0x7f0200a0, 0x7f0200a1, 
-        0x7f0200a2, 0x7f0200a3, 0x7f0200a4, 0x7f0200a5, 
-        0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 
-        0x7f0200b6, 0x7f0200bc, 0x7f0200bd, 0x7f0200c0, 
-        0x7f0200c1, 0x7f0200c2, 0x7f0200c3, 0x7f0200c9, 
-        0x7f0200ca, 0x7f0200d5, 0x7f0200d8, 0x7f0200d9, 
-        0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd, 
-        0x7f0200de, 0x7f0200df, 0x7f0200ec, 0x7f0200ed, 
-        0x7f0200f0, 0x7f0200f1, 0x7f0200f2, 0x7f0200f3, 
-        0x7f0200f4, 0x7f0200f5, 0x7f0200f6, 0x7f0200f7, 
-        0x7f0200f8, 0x7f0200f9
-      };
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarDivider}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarDivider
-     */
-    public static final int Theme_actionBarDivider=2;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarItemBackground
-     */
-    public static final int Theme_actionBarItemBackground=3;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarPopupTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarPopupTheme
-     */
-    public static final int Theme_actionBarPopupTheme=4;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarSize}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarSize
-     */
-    public static final int Theme_actionBarSize=5;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarSplitStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarSplitStyle
-     */
-    public static final int Theme_actionBarSplitStyle=6;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarStyle
-     */
-    public static final int Theme_actionBarStyle=7;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabBarStyle
-     */
-    public static final int Theme_actionBarTabBarStyle=8;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabStyle
-     */
-    public static final int Theme_actionBarTabStyle=9;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTabTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarTabTextStyle
-     */
-    public static final int Theme_actionBarTabTextStyle=10;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarTheme
-     */
-    public static final int Theme_actionBarTheme=11;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionBarWidgetTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionBarWidgetTheme
-     */
-    public static final int Theme_actionBarWidgetTheme=12;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionButtonStyle
-     */
-    public static final int Theme_actionButtonStyle=13;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionDropDownStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionDropDownStyle
-     */
-    public static final int Theme_actionDropDownStyle=14;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionMenuTextAppearance}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionMenuTextAppearance
-     */
-    public static final int Theme_actionMenuTextAppearance=15;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionMenuTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionMenuTextColor
-     */
-    public static final int Theme_actionMenuTextColor=16;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeBackground
-     */
-    public static final int Theme_actionModeBackground=17;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCloseButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeCloseButtonStyle
-     */
-    public static final int Theme_actionModeCloseButtonStyle=18;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCloseDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeCloseDrawable
-     */
-    public static final int Theme_actionModeCloseDrawable=19;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCopyDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeCopyDrawable
-     */
-    public static final int Theme_actionModeCopyDrawable=20;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeCutDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeCutDrawable
-     */
-    public static final int Theme_actionModeCutDrawable=21;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeFindDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeFindDrawable
-     */
-    public static final int Theme_actionModeFindDrawable=22;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModePasteDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModePasteDrawable
-     */
-    public static final int Theme_actionModePasteDrawable=23;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModePopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModePopupWindowStyle
-     */
-    public static final int Theme_actionModePopupWindowStyle=24;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeSelectAllDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeSelectAllDrawable
-     */
-    public static final int Theme_actionModeSelectAllDrawable=25;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeShareDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeShareDrawable
-     */
-    public static final int Theme_actionModeShareDrawable=26;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeSplitBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeSplitBackground
-     */
-    public static final int Theme_actionModeSplitBackground=27;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeStyle
-     */
-    public static final int Theme_actionModeStyle=28;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionModeWebSearchDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionModeWebSearchDrawable
-     */
-    public static final int Theme_actionModeWebSearchDrawable=29;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionOverflowButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionOverflowButtonStyle
-     */
-    public static final int Theme_actionOverflowButtonStyle=30;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#actionOverflowMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:actionOverflowMenuStyle
-     */
-    public static final int Theme_actionOverflowMenuStyle=31;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#activityChooserViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:activityChooserViewStyle
-     */
-    public static final int Theme_activityChooserViewStyle=32;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogButtonGroupStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:alertDialogButtonGroupStyle
-     */
-    public static final int Theme_alertDialogButtonGroupStyle=33;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogCenterButtons}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:alertDialogCenterButtons
-     */
-    public static final int Theme_alertDialogCenterButtons=34;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:alertDialogStyle
-     */
-    public static final int Theme_alertDialogStyle=35;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#alertDialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:alertDialogTheme
-     */
-    public static final int Theme_alertDialogTheme=36;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int Theme_android_windowAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int Theme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#autoCompleteTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:autoCompleteTextViewStyle
-     */
-    public static final int Theme_autoCompleteTextViewStyle=37;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#borderlessButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:borderlessButtonStyle
-     */
-    public static final int Theme_borderlessButtonStyle=38;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonBarButtonStyle
-     */
-    public static final int Theme_buttonBarButtonStyle=39;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarNegativeButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonBarNegativeButtonStyle
-     */
-    public static final int Theme_buttonBarNegativeButtonStyle=40;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarNeutralButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonBarNeutralButtonStyle
-     */
-    public static final int Theme_buttonBarNeutralButtonStyle=41;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarPositiveButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonBarPositiveButtonStyle
-     */
-    public static final int Theme_buttonBarPositiveButtonStyle=42;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonBarStyle
-     */
-    public static final int Theme_buttonBarStyle=43;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonStyle
-     */
-    public static final int Theme_buttonStyle=44;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#buttonStyleSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:buttonStyleSmall
-     */
-    public static final int Theme_buttonStyleSmall=45;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#checkboxStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:checkboxStyle
-     */
-    public static final int Theme_checkboxStyle=46;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#checkedTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:checkedTextViewStyle
-     */
-    public static final int Theme_checkedTextViewStyle=47;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorAccent}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorAccent
-     */
-    public static final int Theme_colorAccent=48;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorButtonNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorButtonNormal
-     */
-    public static final int Theme_colorButtonNormal=49;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlActivated}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorControlActivated
-     */
-    public static final int Theme_colorControlActivated=50;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlHighlight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorControlHighlight
-     */
-    public static final int Theme_colorControlHighlight=51;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorControlNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorControlNormal
-     */
-    public static final int Theme_colorControlNormal=52;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorPrimary}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorPrimary
-     */
-    public static final int Theme_colorPrimary=53;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorPrimaryDark}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorPrimaryDark
-     */
-    public static final int Theme_colorPrimaryDark=54;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#colorSwitchThumbNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:colorSwitchThumbNormal
-     */
-    public static final int Theme_colorSwitchThumbNormal=55;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#controlBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:controlBackground
-     */
-    public static final int Theme_controlBackground=56;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dialogPreferredPadding}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dialogPreferredPadding
-     */
-    public static final int Theme_dialogPreferredPadding=57;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dialogTheme
-     */
-    public static final int Theme_dialogTheme=58;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dividerHorizontal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dividerHorizontal
-     */
-    public static final int Theme_dividerHorizontal=59;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dividerVertical}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dividerVertical
-     */
-    public static final int Theme_dividerVertical=60;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dropDownListViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dropDownListViewStyle
-     */
-    public static final int Theme_dropDownListViewStyle=61;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#dropdownListPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:dropdownListPreferredItemHeight
-     */
-    public static final int Theme_dropdownListPreferredItemHeight=62;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:editTextBackground
-     */
-    public static final int Theme_editTextBackground=63;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:editTextColor
-     */
-    public static final int Theme_editTextColor=64;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#editTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:editTextStyle
-     */
-    public static final int Theme_editTextStyle=65;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:homeAsUpIndicator
-     */
-    public static final int Theme_homeAsUpIndicator=66;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#imageButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:imageButtonStyle
-     */
-    public static final int Theme_imageButtonStyle=67;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listChoiceBackgroundIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listChoiceBackgroundIndicator
-     */
-    public static final int Theme_listChoiceBackgroundIndicator=68;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listDividerAlertDialog}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listDividerAlertDialog
-     */
-    public static final int Theme_listDividerAlertDialog=69;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPopupWindowStyle
-     */
-    public static final int Theme_listPopupWindowStyle=70;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeight
-     */
-    public static final int Theme_listPreferredItemHeight=71;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeightLarge}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeightLarge
-     */
-    public static final int Theme_listPreferredItemHeightLarge=72;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemHeightSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemHeightSmall
-     */
-    public static final int Theme_listPreferredItemHeightSmall=73;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemPaddingLeft}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemPaddingLeft
-     */
-    public static final int Theme_listPreferredItemPaddingLeft=74;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#listPreferredItemPaddingRight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:listPreferredItemPaddingRight
-     */
-    public static final int Theme_listPreferredItemPaddingRight=75;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:panelBackground
-     */
-    public static final int Theme_panelBackground=76;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelMenuListTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:panelMenuListTheme
-     */
-    public static final int Theme_panelMenuListTheme=77;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#panelMenuListWidth}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:panelMenuListWidth
-     */
-    public static final int Theme_panelMenuListWidth=78;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#popupMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:popupMenuStyle
-     */
-    public static final int Theme_popupMenuStyle=79;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#popupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:popupWindowStyle
-     */
-    public static final int Theme_popupWindowStyle=80;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#radioButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:radioButtonStyle
-     */
-    public static final int Theme_radioButtonStyle=81;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#ratingBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:ratingBarStyle
-     */
-    public static final int Theme_ratingBarStyle=82;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#searchViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:searchViewStyle
-     */
-    public static final int Theme_searchViewStyle=83;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#seekBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:seekBarStyle
-     */
-    public static final int Theme_seekBarStyle=84;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#selectableItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:selectableItemBackground
-     */
-    public static final int Theme_selectableItemBackground=85;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#selectableItemBackgroundBorderless}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:selectableItemBackgroundBorderless
-     */
-    public static final int Theme_selectableItemBackgroundBorderless=86;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#spinnerDropDownItemStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:spinnerDropDownItemStyle
-     */
-    public static final int Theme_spinnerDropDownItemStyle=87;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#spinnerStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:spinnerStyle
-     */
-    public static final int Theme_spinnerStyle=88;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#switchStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:switchStyle
-     */
-    public static final int Theme_switchStyle=89;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceLargePopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceLargePopupMenu
-     */
-    public static final int Theme_textAppearanceLargePopupMenu=90;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceListItem
-     */
-    public static final int Theme_textAppearanceListItem=91;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceListItemSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceListItemSmall
-     */
-    public static final int Theme_textAppearanceListItemSmall=92;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSearchResultSubtitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSearchResultSubtitle
-     */
-    public static final int Theme_textAppearanceSearchResultSubtitle=93;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSearchResultTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSearchResultTitle
-     */
-    public static final int Theme_textAppearanceSearchResultTitle=94;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textAppearanceSmallPopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textAppearanceSmallPopupMenu
-     */
-    public static final int Theme_textAppearanceSmallPopupMenu=95;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textColorAlertDialogListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textColorAlertDialogListItem
-     */
-    public static final int Theme_textColorAlertDialogListItem=96;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#textColorSearchUrl}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:textColorSearchUrl
-     */
-    public static final int Theme_textColorSearchUrl=97;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#toolbarNavigationButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:toolbarNavigationButtonStyle
-     */
-    public static final int Theme_toolbarNavigationButtonStyle=98;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#toolbarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:toolbarStyle
-     */
-    public static final int Theme_toolbarStyle=99;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionBar}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowActionBar
-     */
-    public static final int Theme_windowActionBar=100;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionBarOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowActionBarOverlay
-     */
-    public static final int Theme_windowActionBarOverlay=101;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowActionModeOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowActionModeOverlay
-     */
-    public static final int Theme_windowActionModeOverlay=102;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedHeightMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowFixedHeightMajor
-     */
-    public static final int Theme_windowFixedHeightMajor=103;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedHeightMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowFixedHeightMinor
-     */
-    public static final int Theme_windowFixedHeightMinor=104;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowFixedWidthMajor
-     */
-    public static final int Theme_windowFixedWidthMajor=105;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowFixedWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowFixedWidthMinor
-     */
-    public static final int Theme_windowFixedWidthMinor=106;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowMinWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowMinWidthMajor
-     */
-    public static final int Theme_windowMinWidthMajor=107;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowMinWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowMinWidthMinor
-     */
-    public static final int Theme_windowMinWidthMinor=108;
-    /**
-     * <p>This symbol is the offset where the {@link lab4.android.wku.edu.autopurchase.R.attr#windowNoTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name lab4.android.wku.edu.autopurchase:windowNoTitle
-     */
-    public static final int Theme_windowNoTitle=109;
-    /**
      * Attributes that can be used with a Toolbar.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -8824,10 +8964,10 @@ public final class R {
         0x010100af, 0x01010140, 0x7f02003f, 0x7f020040, 
         0x7f02004c, 0x7f02004d, 0x7f02004e, 0x7f02004f, 
         0x7f0200a6, 0x7f0200a7, 0x7f0200a8, 0x7f0200ab, 
-        0x7f0200ac, 0x7f0200b5, 0x7f0200ce, 0x7f0200cf, 
-        0x7f0200d0, 0x7f0200e3, 0x7f0200e4, 0x7f0200e5, 
-        0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 0x7f0200e9, 
-        0x7f0200ea
+        0x7f0200ac, 0x7f0200b5, 0x7f0200d1, 0x7f0200d2, 
+        0x7f0200d3, 0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 
+        0x7f0200e9, 0x7f0200ea, 0x7f0200eb, 0x7f0200ec, 
+        0x7f0200ed
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -9166,7 +9306,7 @@ public final class R {
      */
     public static final int[] View={
         0x01010000, 0x010100da, 0x7f0200af, 0x7f0200b0, 
-        0x7f0200e0
+        0x7f0200e3
       };
     /**
      * Attributes that can be used with a ViewBackgroundHelper.

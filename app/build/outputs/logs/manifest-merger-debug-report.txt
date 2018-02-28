@@ -1,77 +1,97 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f20d967efed8e3d9d6f6881906780086/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.0.aar/cfd6a3f94bfeff7a32347e543097c1c8/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/166753b2ea7ab7d1436a2e44d63dacac/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a4be1687141eef591262973fe4e5c8fb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/480b4a6e11ed4461c9f36f36236d95df/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/167d61394f8e5690bf4b984e783930be/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f20d967efed8e3d9d6f6881906780086/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f20d967efed8e3d9d6f6881906780086/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.0.aar/cfd6a3f94bfeff7a32347e543097c1c8/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.0.aar/cfd6a3f94bfeff7a32347e543097c1c8/AndroidManifest.xml:22:5-20
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/166753b2ea7ab7d1436a2e44d63dacac/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/166753b2ea7ab7d1436a2e44d63dacac/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a4be1687141eef591262973fe4e5c8fb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a4be1687141eef591262973fe4e5c8fb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/480b4a6e11ed4461c9f36f36236d95df/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/480b4a6e11ed4461c9f36f36236d95df/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/167d61394f8e5690bf4b984e783930be/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/167d61394f8e5690bf4b984e783930be/AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:7:9-44
 	android:allowBackup
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:10:9-65
 activity#lab4.android.wku.edu.autopurchase.MainActivity
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:11:9-17:20
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:11:9-20:20
+	android:configChanges
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:13:13-63
+	android:theme
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:12:13-47
 	android:name
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:11:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:12:13-16:29
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:13:25-66
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:18:27-74
 activity#lab4.android.wku.edu.autopurchase.report
-ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:18:9-53
+ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:21:9-26:20
+	android:parentActivityName
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:22:13-55
+	android:configChanges
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:23:13-63
 	android:name
-		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:18:19-41
+		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml:21:19-41
 uses-sdk
 INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f20d967efed8e3d9d6f6881906780086/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f20d967efed8e3d9d6f6881906780086/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.0.aar/cfd6a3f94bfeff7a32347e543097c1c8/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.0.aar/cfd6a3f94bfeff7a32347e543097c1c8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/166753b2ea7ab7d1436a2e44d63dacac/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tyler/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/166753b2ea7ab7d1436a2e44d63dacac/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a4be1687141eef591262973fe4e5c8fb/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a4be1687141eef591262973fe4e5c8fb/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/480b4a6e11ed4461c9f36f36236d95df/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/480b4a6e11ed4461c9f36f36236d95df/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/167d61394f8e5690bf4b984e783930be/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/167d61394f8e5690bf4b984e783930be/AndroidManifest.xml:20:5-43
 INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml
 		ADDED from /home/tyler/AndroidStudioProjects/AutoPurchase/app/src/main/AndroidManifest.xml

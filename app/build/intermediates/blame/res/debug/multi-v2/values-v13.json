@@ -4,7 +4,7 @@
             "outputFile": "/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
             "map": [
                 {
-                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c2f8e9600cf30b03734563db2df2b08a/res/values-v13/values-v13.xml",
+                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/res/values-v13/values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

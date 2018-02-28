@@ -4,15 +4,8 @@
             "outputFile": "/home/tyler/AndroidStudioProjects/AutoPurchase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/ce26ef6b59b9ed05202c34b978126339/res/values-w360dp/values-w360dp.xml",
+                    "source": "/home/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f0a094f17e08b644406c35c47c178350/res/values-w360dp-v13/values-w360dp-v13.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "290",
-                        "endColumns": "54",
-                        "endOffsets": "340"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
