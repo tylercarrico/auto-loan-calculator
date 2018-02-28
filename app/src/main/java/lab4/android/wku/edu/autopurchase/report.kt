@@ -52,7 +52,7 @@ class report : AppCompatActivity() {
         val tax = findViewById(R.id.tax) as TextView
         tax.append(java.lang.Double.toString(sales_tax))
         //your cost
-        val cost = java.lang.Double.parseDouble(tmp) + sales_tax + 300.0
+        val cost = principal + sales_tax + 300.0
         val yourCost = findViewById(R.id.yourCost) as TextView
         yourCost.append(java.lang.Double.toString(cost))
         //rate
@@ -61,11 +61,11 @@ class report : AppCompatActivity() {
         yearly.append(rate)
         val monthly = java.lang.Double.parseDouble(rate) / 12
         //payment
-        val payment = principal * (monthly * Math.pow(1 + monthly, months.toDouble())) / (Math.pow(1 + monthly, months.toDouble()) - 1)
+        val payment = cost * (monthly * Math.pow(1 + monthly, months.toDouble())) / (Math.pow(1 + monthly, months.toDouble()) - 1)
         val monthly_payment = findViewById(R.id.monthly) as TextView
         monthly_payment.append("%.2f".format(payment))
         //interest
-        val total_interest = java.lang.Double.parseDouble(rate) / months * principal
+        val total_interest = principal * java.lang.Double.parseDouble(rate) * years
         val totalInterest = findViewById(R.id.totalInterest) as TextView
         totalInterest.append(java.lang.Double.toString(total_interest))
 
