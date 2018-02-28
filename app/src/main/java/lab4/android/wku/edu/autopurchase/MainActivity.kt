@@ -3,19 +3,34 @@ package lab4.android.wku.edu.autopurchase
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.Toolbar
+import android.view.Menu
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.view.View.inflate
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.widget.Toast
 
+
+//Tyler Carrico
+//activity for inputing loan info
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-
+    //create vars and buttons
     internal var years = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val actionBarToolbar = findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(actionBarToolbar)
+        val menu = supportActionBar
+        menu!!.setDisplayShowHomeEnabled(true)
+        menu!!.setIcon(R.drawable.car_sedan2)
 
         val submit = findViewById(R.id.submit) as Button
         submit.setOnClickListener(this) // calling onClick() method
@@ -23,9 +38,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val radioGroup = findViewById(R.id.radioGroup) as RadioGroup
         radioGroup.setOnClickListener(this)
 
-
     }
 
+    override fun onStart() {
+        super.onStart()
+        overridePendingTransition(R.anim.main_in, R.anim.report_out)
+    }
+
+    //onclick events
     fun onRadioButtonClick(view: View) {// Is the button now checked?
 
         val checked = (view as RadioButton).isChecked
@@ -40,6 +60,27 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 years = 5
         }
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.getItemId()) {
+        // action with ID action_refresh was selected
+            R.id.action_refresh -> Toast.makeText(this, "Refresh selected", Toast.LENGTH_SHORT)
+                    .show()
+        // action with ID action_settings was selected
+            R.id.action_settings -> Toast.makeText(this, "Settings selected", Toast.LENGTH_SHORT)
+                    .show()
+            else -> {
+            }
+        }
+
+        return true
     }
 
     override fun onClick(v: View) {
